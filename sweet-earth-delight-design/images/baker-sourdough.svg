@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 413 520" fill="none" aria-hidden="true">
+  <!-- ground shadow -->
+  <ellipse cx="206" cy="502" rx="130" ry="12" fill="#e8ddd0" opacity="0.6"/>
+
+  <!-- wheat stalks (left) -->
+  <g stroke="#03423d" stroke-width="2" stroke-linecap="round">
+    <path d="M52 420c6-40 10-72 14-108"/>
+    <path d="M44 360c8-4 14-2 18 4"/>
+    <path d="M40 388c10-2 16 2 20 10"/>
+    <path d="M48 332c8-4 14-2 18 4"/>
+    <path d="M44 304c10-2 16 2 20 10"/>
+    <path d="M68 420c4-38 6-70 8-104"/>
+    <path d="M62 364c8-4 14-2 18 4"/>
+    <path d="M58 336c10-2 16 2 20 10"/>
+  </g>
+
+  <!-- legs + shoes -->
+  <path d="M168 430v62" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M244 430v62" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M148 492h44" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M220 492h44" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- apron + dress -->
+  <path d="M132 248c8-18 34-30 74-30s66 12 74 30v196c-6 10-38 18-74 18s-68-8-74-18V248z" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M154 248c12-14 32-22 52-22s40 8 52 22" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M132 330h148" stroke="#d6b294" stroke-width="2"/>
+  <path d="M140 352h132" stroke="#d6b294" stroke-width="2"/>
+  <path d="M148 374h116" stroke="#d6b294" stroke-width="2"/>
+  <path d="M168 396c12 8 26 12 38 12s26-4 38-12" stroke="#d6b294" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- arms -->
+  <path d="M132 290c-28 8-48 32-54 58" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M280 290c28 8 48 32 54 58" stroke="#3a3a3a" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- baking tray -->
+  <rect x="98" y="318" width="216" height="18" rx="4" fill="#b78d77" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="104" y="336" width="204" height="8" rx="2" fill="#a67c5b" stroke="#3a3a3a" stroke-width="1.5"/>
+
+  <!-- sourdough boule on tray -->
+  <ellipse cx="206" cy="302" rx="78" ry="52" fill="#d4a574" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M150 296c18-22 40-34 56-34s38 12 56 34" stroke="#8b5e3c" stroke-width="2" stroke-linecap="round"/>
+  <path d="M162 308c14-10 28-16 44-16s30 6 44 16" stroke="#8b5e3c" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M206 250v104" stroke="#6b4226" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M178 302h56" stroke="#6b4226" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- cookies on tray -->
+  <circle cx="128" cy="324" r="18" fill="#c68642" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="120" cy="318" r="3" fill="#5c3d2e"/>
+  <circle cx="132" cy="316" r="2.5" fill="#5c3d2e"/>
+  <circle cx="136" cy="328" r="2.5" fill="#5c3d2e"/>
+  <circle cx="124" cy="330" r="2" fill="#5c3d2e"/>
+
+  <circle cx="284" cy="324" r="18" fill="#c68642" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="276" cy="318" r="3" fill="#5c3d2e"/>
+  <circle cx="288" cy="316" r="2.5" fill="#5c3d2e"/>
+  <circle cx="292" cy="328" r="2.5" fill="#5c3d2e"/>
+  <circle cx="280" cy="330" r="2" fill="#5c3d2e"/>
+
+  <!-- hands on tray -->
+  <ellipse cx="108" cy="346" rx="16" ry="12" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+  <ellipse cx="304" cy="346" rx="16" ry="12" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+
+  <!-- head -->
+  <circle cx="206" cy="178" r="46" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M168 162c10-20 26-30 38-30s28 10 38 30" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="190" cy="176" r="4" fill="#3a3a3a"/>
+  <circle cx="222" cy="176" r="4" fill="#3a3a3a"/>
+  <path d="M194 196c8 8 16 12 24 12s16-4 24-12" stroke="#3a3a3a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- hair bun -->
+  <circle cx="238" cy="142" r="22" fill="#5c3d2e" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M170 148c8-24 28-38 52-38" stroke="#5c3d2e" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- chef hat -->
+  <path d="M158 132c0-28 20-48 48-48s48 20 48 48" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="158" y="128" width="96" height="18" rx="4" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M174 118c8-10 18-14 32-14s24 4 32 14" stroke="#e8e8e8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- floating cookie (accent) -->
+  <circle cx="338" cy="118" r="22" fill="#c68642" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="330" cy="112" r="3.5" fill="#5c3d2e"/>
+  <circle cx="342" cy="110" r="3" fill="#5c3d2e"/>
+  <circle cx="348" cy="122" r="2.5" fill="#5c3d2e"/>
+  <circle cx="332" cy="126" r="2.5" fill="#5c3d2e"/>
+  <path d="M318 96c6-8 14-12 22-12" stroke="#03423d" stroke-width="1.8" stroke-linecap="round" stroke-dasharray="3 4"/>
+</svg>

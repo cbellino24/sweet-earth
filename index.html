@@ -35,7 +35,7 @@
             <li><a href="#contact">Contact</a></li>
             <li><a href="#shop">Shop</a></li>
             <li><a href="#find-us">Find Us</a></li>
-            <li><a href="#markets-2026">2026 Pop Ups &amp; Farmer Markets</a></li>
+            <li><a href="schedule.html">2026 Pop Ups &amp; Farmer Markets</a></li>
             <li><a href="#wholesale">Wholesale</a></li>
           </ul>
         </nav>
@@ -67,7 +67,7 @@
             <h1 class="hero-headline">Savor Sourdough</h1>
             <div class="hero-cta-group">
               <a href="#find-us" class="hero-btn">Find Sweet Earth Near You</a>
-              <a href="#markets-2026" class="hero-btn">View Farmers Markets</a>
+              <a href="schedule.html" class="hero-btn">View Farmers Markets</a>
               <a href="#contact" class="hero-btn">Contact Us</a>
             </div>
           </div>
@@ -119,23 +119,23 @@
             <a href="#order" class="pods-block__cta">Learn More</a>
 
             <div class="pods-grid">
-              <a href="#order" class="pod-card">
+              <a href="#contact" class="pod-card">
                 <div class="pod-card__image">
-                  <img src="images/sweet-earth-delights-1-hero.jpg" alt="Scheduled pickup from our home kitchen" loading="lazy" decoding="async">
+                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-contact.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
                 </div>
                 <p class="pod-card__label">Scheduled Pickup</p>
               </a>
               <a href="#find-us" class="pod-card">
                 <div class="pod-card__image">
-                  <img src="images/bagels-sweet-earth-2.jpg" alt="Farmers markets and pop-ups" loading="lazy" decoding="async">
+                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-farmers-market.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
                 </div>
                 <p class="pod-card__label">Farmers Markets &amp; Pop-Ups</p>
               </a>
-              <a href="#contact" class="pod-card">
+              <a href="#find-us" class="pod-card">
                 <div class="pod-card__image">
-                  <img src="images/sweet-earth-delights-owner.jpg" alt="Contact Sweet Earth Delights" loading="lazy" decoding="async">
+                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-find-stores.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
                 </div>
-                <p class="pod-card__label">Contact Us</p>
+                <p class="pod-card__label">Find Near You</p>
               </a>
             </div>
           </div>
@@ -143,11 +143,7 @@
 
       </section>
 
-      <div class="section-divider section-divider--wave-down" aria-hidden="true">
-        <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M0,52 C240,92 480,20 720,52 C960,92 1200,20 1440,52 L1440,100 L0,100 Z" fill="currentColor"/>
-        </svg>
-      </div>
+      <div class="section-divider section-divider--wave-down" aria-hidden="true"></div>
 
       <!-- Our Products (inspired by Magnolia Bakery) -->
       <section class="products-section" id="shop" aria-labelledby="products-title">
@@ -170,15 +166,9 @@
             </a>
             <a href="#pastries" class="product-card">
               <div class="product-card__image">
-                <img src="images/bagels-sweet-earth-2.jpg" alt="Fresh bagels" loading="lazy" decoding="async">
+                <img src="images/sweet-earth-bagels.jpg" alt="Fresh bagels" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Bagels</h3>
-            </a>
-            <a href="#pastries" class="product-card">
-              <div class="product-card__image">
-                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Artisan pastries" loading="lazy" decoding="async">
-              </div>
-              <h3 class="product-card__name">Pastries</h3>
             </a>
             <a href="#pastries" class="product-card">
               <div class="product-card__image">
@@ -186,13 +176,13 @@
               </div>
               <h3 class="product-card__name">Cookies &amp; Treats</h3>
             </a>
+            <a href="#pastries" class="product-card">
+              <div class="product-card__image">
+                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Artisan pastries" loading="lazy" decoding="async">
+              </div>
+              <h3 class="product-card__name">Pastries</h3>
+            </a>
           </div>
-        </div>
-
-        <div class="section-divider section-divider--wave-up" aria-hidden="true">
-          <svg viewBox="0 0 1440 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M0,48 C240,8 480,80 720,48 C960,8 1200,80 1440,48 L1440,0 L0,0 Z" fill="currentColor"/>
-          </svg>
         </div>
 
       </section>
@@ -202,11 +192,11 @@
         <div class="markets-section__container">
           <header class="markets-section__intro">
             <p class="markets-section__eyebrow">Find Us</p>
-            <h2 class="markets-section__title" id="find-us-heading">Where to Find Sweet Earth Delights</h2>
+            <h2 class="markets-section__title" id="find-us-heading">How We Reach You</h2>
             <p class="markets-section__lead">
-              We&apos;re a home-based bakery on the go. Catch us at summer farmers markets and community
-              pop-ups throughout the season &mdash; the best way to grab fresh bakes and see what&apos;s new
-              from our kitchen.
+              Sweet Earth Delights is a home-based bakery that comes to you. Through farmers markets,
+              seasonal pop-ups, and scheduled pickup from our kitchen, we share small-batch sourdough,
+              pastries, and treats baked fresh from scratch.
             </p>
           </header>
 
@@ -214,23 +204,24 @@
             <div class="schedule-card promo-card">
               <h3 class="schedule-card__title">Summer Farmers Markets</h3>
               <p class="promo-card__text">
-                Find Sweet Earth Delights at local farmers markets when the weather warms up. Stock up on
-                sourdough, pastries, and seasonal favorites baked fresh for market day.
+                When market season arrives, we bring a rotating selection of sourdough loaves, bagels,
+                pastries, cookies, and seasonal favorites &mdash; all baked fresh for the day and ready
+                to take home.
               </p>
             </div>
             <div class="schedule-card promo-card">
               <h3 class="schedule-card__title">Pop-Ups &amp; Events</h3>
               <p class="promo-card__text">
-                We pop up at community events, holiday markets, and special bake days across the area.
-                Follow along on social media for the latest locations and what&apos;s coming out of the oven.
+                We set up at community events, holiday markets, and special bake days throughout the year.
+                Pop-ups are a great way to try limited-run items and see what&apos;s new from our home kitchen.
               </p>
             </div>
           </div>
 
           <footer class="markets-section__footer">
-            <p class="markets-section__note">Looking for specific dates and times? View our full 2026 schedule or reach out with questions.</p>
+            <p class="markets-section__note">For dates, times, and locations, visit our 2026 schedule page or reach out with questions.</p>
             <div class="markets-section__actions">
-              <a href="#markets-2026" class="markets-section__cta">2026 Pop Ups &amp; Farmer Markets</a>
+              <a href="schedule.html" class="markets-section__cta">2026 Pop Ups &amp; Farmer Markets</a>
               <a href="#contact" class="markets-section__cta markets-section__cta--outline">Contact Us</a>
             </div>
 
@@ -258,14 +249,14 @@
               Artisan breads, pastries, and seasonal treats baked fresh from our home kitchen.
             </p>
             <p class="headline-text-images-banner__note">
-              <em>Find us at local farmers markets, pop-ups, and select retail partners near you.</em>
+              <em>We meet our neighbors at farmers markets and pop-ups throughout the season.</em>
             </p>
             <p class="headline-text-images-banner__note">
-              <em>Follow us on social media for weekly locations and what's fresh from the oven!</em>
+              <em>Follow us on social media for announcements and what&apos;s fresh from the oven.</em>
             </p>
             <div class="headline-text-images-banner__spacer" aria-hidden="true"></div>
             <div class="headline-text-images-banner__actions">
-              <a href="#contact" class="headline-text-images-banner__btn">Where to Find Us</a>
+              <a href="schedule.html" class="headline-text-images-banner__btn">View 2026 Schedule</a>
             </div>
           </div>
           <figure class="headline-text-images-banner__figure">
@@ -293,12 +284,12 @@
             <ul class="order-list">
               <li>Fill out our order form — we&apos;ll email you back with confirmation and how to submit payment</li>
               <li>Pick up your order at a scheduled time</li>
-              <li>Find us at a farmers market or pop-up near you</li>
+              <li>Catch us at a farmers market or pop-up when we&apos;re out</li>
               <li>Call ahead for larger orders and weekend specials</li>
             </ul>
             <div class="order-buttons">
               <a href="#contact" class="order-btn">Order Form</a>
-              <a href="#find-us" class="order-btn order-btn--outline">Find a Location</a>
+              <a href="schedule.html" class="order-btn order-btn--outline">View 2026 Schedule</a>
             </div>
             <p class="order-note">Planning a larger order? Visit our <a href="#wholesale" class="text-link">Wholesale</a> page or <a href="#contact" class="text-link">contact us</a> directly.</p>
           </div>
@@ -314,83 +305,33 @@
       </section>
 
 
-      <!-- 2026 Pop Ups & Farmer Markets Schedule -->
-      <section class="markets-section markets-section--schedule" id="markets-2026" aria-labelledby="markets-2026-title">
-        <div class="markets-section__container">
-          <header class="markets-section__intro">
-            <p class="markets-section__eyebrow">2026 Schedule</p>
-            <h2 class="markets-section__title" id="markets-2026-title">2026 Pop Ups &amp; Farmer Markets</h2>
-            <p class="markets-section__lead">
-              Full dates, times, and locations for every market and pop-up on our calendar this year.
+      <!-- Newsletter Sign Up -->
+      <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter-section__container">
+          <header class="newsletter-section__intro">
+            <p class="newsletter-section__eyebrow">Stay in Touch</p>
+            <h2 class="newsletter-section__title" id="newsletter-title">Join Our Newsletter</h2>
+            <p class="newsletter-section__lead">
+              Be the first to know about farmers market dates, pop-up locations, seasonal menus,
+              and special offers from our home kitchen.
             </p>
           </header>
 
-          <div class="markets-section__grid">
-            <div class="schedule-card">
-              <h3 class="schedule-card__title">Farmers Markets</h3>
-              <ul class="schedule-list">
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">Apr – Oct 2026</span>
-                    <span class="schedule-list__time">Saturdays · 8am – 12pm</span>
-                  </div>
-                  <p class="schedule-list__where">Your City Farmers Market</p>
-                  <p class="schedule-list__detail">123 Market Square, Your City</p>
-                </li>
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">May – Sep 2026</span>
-                    <span class="schedule-list__time">Sundays · 9am – 1pm</span>
-                  </div>
-                  <p class="schedule-list__where">Downtown Artisan Market</p>
-                  <p class="schedule-list__detail">456 Main Street, Your City</p>
-                </li>
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">Jun – Aug 2026</span>
-                    <span class="schedule-list__time">Wednesdays · 4pm – 7pm</span>
-                  </div>
-                  <p class="schedule-list__where">Midweek Market on the Green</p>
-                  <p class="schedule-list__detail">789 Oak Avenue, Your City</p>
-                </li>
-              </ul>
+          <form class="newsletter-form" action="#" method="post">
+            <label class="newsletter-form__label" for="newsletter-email">Email address</label>
+            <div class="newsletter-form__fields">
+              <input
+                type="email"
+                id="newsletter-email"
+                name="email"
+                class="newsletter-form__input"
+                placeholder="Your email address"
+                required
+                autocomplete="email"
+              >
+              <button type="submit" class="newsletter-form__submit">Subscribe</button>
             </div>
-
-            <div class="schedule-card">
-              <h3 class="schedule-card__title">Pop-Up Schedule</h3>
-              <ul class="schedule-list">
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">March 15, 2026</span>
-                    <span class="schedule-list__time">10am – 2pm</span>
-                  </div>
-                  <p class="schedule-list__where">Spring Kitchen Pop-Up</p>
-                  <p class="schedule-list__detail">Pre-orders recommended · sourdough &amp; pastries</p>
-                </li>
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">July 4, 2026</span>
-                    <span class="schedule-list__time">8am – sell out</span>
-                  </div>
-                  <p class="schedule-list__where">Independence Day Bake Stand</p>
-                  <p class="schedule-list__detail">Holiday cookies, pies &amp; celebration treats</p>
-                </li>
-                <li class="schedule-list__item">
-                  <div class="schedule-list__when">
-                    <span class="schedule-list__season">Nov – Dec 2026</span>
-                    <span class="schedule-list__time">Select weekends</span>
-                  </div>
-                  <p class="schedule-list__where">Holiday Market Pop-Ups</p>
-                  <p class="schedule-list__detail">Gift boxes, seasonal bakes &amp; custom orders</p>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <footer class="markets-section__footer">
-            <p class="markets-section__note">Schedules may change for weather or holidays. Follow us on social media for the latest updates.</p>
-            <a href="#contact" class="markets-section__cta">Contact Us</a>
-          </footer>
+          </form>
         </div>
       </section>
 
@@ -398,12 +339,12 @@
       <!-- Photo Grid -->
       <section class="photo-grid-section" id="pastries">
         <div class="photo-grid">
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-t1.jpg" alt="Pastry display"></a>
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-s2.jpg" alt="Cupcakes"></a>
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2026/03/spring-footer-DSY09079.jpg" alt="Fresh bread"></a>
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-s4.jpg" alt="Cookies"></a>
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2026/03/spring-footer-DSY09073.jpg" alt="Seasonal treats"></a>
-          <a href="#" class="photo-grid-item wide"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-w1.jpg" alt="Bakery counter"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sourdough-bread-2-omaha.jpg" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-4.jpg" alt="Cookies from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delight-4-omaha.png" alt="Fresh baked goods from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sourdoug-bread-3-omaha.png" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-5.jpg" alt="Seasonal treats" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item wide"><img src="images/sweet-earth-bread-23.jpg" alt="Bakery counter" loading="lazy" decoding="async"></a>
           <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-s1.jpg" alt="Pastries"></a>
         </div>
       </section>
@@ -422,9 +363,9 @@
           <div class="footer-col">
             <h4 class="footer-heading">Contact</h4>
             <address>
-              123 Harvest Lane<br>
-              Your City, State 00000<br>
-              <a href="tel:+10000000000">(000) 000-0000</a>
+              Bellevue, NE<br>
+              Serving Omaha Metro Area<br>
+              <a href="mailto:sales@sweetearthdelights.com">sales@sweetearthdelights.com</a>
             </address>
           </div>
 
@@ -433,7 +374,7 @@
             <ul class="footer-links">
               <li><a href="#about">Our Story</a></li>
                 <li><a href="#find-us">Find Us</a></li>
-              <li><a href="#markets-2026">2026 Schedule</a></li>
+              <li><a href="schedule.html">2026 Schedule</a></li>
               <li><a href="#order">Order Now</a></li>
               <li><a href="#wholesale">Wholesale</a></li>
             </ul>

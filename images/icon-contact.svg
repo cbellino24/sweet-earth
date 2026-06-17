@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288" fill="none" aria-hidden="true">
+  <!-- envelope body -->
+  <rect x="54" y="88" width="252" height="156" rx="10" fill="#ffffff" stroke="#3a3a3a" stroke-width="2.5"/>
+  <path d="M54 112l126 82 126-82" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+  <path d="M54 244l88-64" stroke="#d6b294" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- flap -->
+  <path d="M54 112l126 82 126-82V88H54v24z" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- heart seal -->
+  <circle cx="180" cy="168" r="34" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5"/>
+  <path d="M180 152c-8-10-24-10-24 6 0 12 24 26 24 26s24-14 24-26c0-16-16-16-24-6z" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+
+  <!-- chat bubble -->
+  <path d="M248 52c18 0 32 12 32 28s-14 28-32 28c-4 0-8-1-12-2l-12 10 4-14c-10-6-16-14-16-22 0-16 14-28 32-28h4z" fill="#ffffff" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- phone -->
+  <rect x="72" y="54" width="52" height="84" rx="10" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2.5"/>
+  <rect x="80" y="66" width="36" height="56" rx="4" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <circle cx="98" cy="132" r="4" fill="#d6b294" stroke="#3a3a3a" stroke-width="1.5"/>
+  <path d="M88 88h20M88 98h14" stroke="#03423d" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

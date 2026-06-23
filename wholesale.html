@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wholesale Bread Omaha | Sweet Earth Delights</title>
+  <meta name="description" content="Wholesale sourdough and baked goods for Omaha metro restaurants, cafés, bodegas, grocery stores, and market vendors. Fresh bread baked in Bellevue, Nebraska and delivered to your business.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Figtree:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="page-container">
+    <header class="site-header" id="custom-header">
+      <div class="header-top">
+        <a href="index.html" class="header-logo" aria-label="Sweet Earth Delights home">
+          <img src="images/logo.svg" alt="Sweet Earth Delights" width="180" height="141">
+        </a>
+      </div>
+    </header>
+
+    <div class="header-nav-row" id="header-nav">
+      <div class="header-nav-inner">
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="find-us.html">Find Us</a></li>
+            <li><a href="schedule.html">2026 Pop Ups &amp; Farmer Markets</a></li>
+            <li><a href="wholesale.html" class="active" aria-current="page">Wholesale</a></li>
+          </ul>
+        </nav>
+        <div class="header-social" aria-label="Follow Sweet Earth Delights">
+          <a href="https://www.instagram.com/sweetearthdelights/" class="header-social__link" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">
+            <img src="images/icon-instagram.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+          <a href="#" class="header-social__link" aria-label="Sweet Earth Delights on Facebook">
+            <img src="images/icon-facebook.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main id="et-main-area">
+      <section class="wholesale-page" aria-labelledby="wholesale-title">
+        <div class="wholesale-page__container">
+          <header class="wholesale-page__intro">
+            <p class="wholesale-page__eyebrow">Wholesale</p>
+            <h1 class="wholesale-page__title" id="wholesale-title">Wholesale Bread for Omaha Metro Businesses</h1>
+            <p class="wholesale-page__lead">
+              Sweet Earth Delights supplies restaurants, retail stores, bodegas, cafés, market vendors, and
+              neighborhood shops across Omaha and Council Bluffs. We bake small batch sourdough and pastries
+              from our licensed home kitchen in Bellevue and deliver fresh on a schedule that fits your business.
+            </p>
+          </header>
+        </div>
+
+        <div class="partner-marquee" aria-label="Retail partners carrying Sweet Earth Delights">
+          <div class="partner-marquee__label">
+            <span>Carried at local shops across the metro</span>
+          </div>
+          <div class="partner-marquee__viewport">
+            <div class="partner-marquee__track" id="partner-marquee-track"></div>
+          </div>
+        </div>
+
+        <div class="wholesale-page__container">
+          <div class="wholesale-story">
+            <figure class="wholesale-story__figure">
+              <img
+                src="images/true-sourdough-bread-omaha.jpg"
+                alt="True sourdough bread baked in Omaha by Sweet Earth Delights"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              >
+            </figure>
+            <div class="wholesale-story__body">
+              <h2 class="wholesale-story__heading">Wholesale Bread From Our Bellevue Kitchen</h2>
+              <p>
+                Most of our wholesale accounts started with a simple question. Could we bring extra loaves to a
+                shop? Could a restaurant get sourdough that still tasted good at dinner service? Could a market
+                vendor get backup inventory for a busy weekend? We kept saying yes, and that is how this side of
+                the bakery grew.
+              </p>
+              <p>
+                We bake everything in our licensed home kitchen in Bellevue. Shop owners, chefs, and vendors
+                across the Omaha metro get the same bread we sell at farmers markets. It is mixed, shaped, and
+                baked in small batches, then delivered fresh with clear labels and simple handling notes for
+                your team.
+              </p>
+              <p>
+                If you are stocking a shelf, writing a brunch menu, filling a pastry case, or setting up a market
+                table, we will figure out quantities and delivery days based on how you actually sell. We would
+                rather have a real conversation about what works than hand you a generic price list.
+              </p>
+              <ul class="wholesale-story__list">
+                <li>Licensed home kitchen in Bellevue, Nebraska</li>
+                <li>Delivery across the Omaha metro for retail, restaurants, and events</li>
+                <li>Weekly standing orders or seasonal bakes</li>
+              </ul>
+            </div>
+          </div>
+
+          <section class="wholesale-audiences" aria-labelledby="wholesale-audiences-title">
+            <div class="wholesale-audiences__head">
+              <h2 class="wholesale-audiences__title" id="wholesale-audiences-title">Who We Wholesale To</h2>
+              <p class="wholesale-audiences__lead">
+                If you feed people for a living, or sell food to people who do, we would like to hear from you.
+                These are the Omaha area businesses we work with most often.
+              </p>
+            </div>
+            <div class="wholesale-audiences__grid">
+              <div class="wholesale-audience">
+                <h3>Grocery &amp; Specialty Retail</h3>
+                <p>
+                  Independent grocers, natural food stores, and specialty markets looking for local sourdough
+                  from a Bellevue baker. Loaves arrive labeled and dated, ready for the bread aisle or a grab
+                  and go cooler.
+                </p>
+              </div>
+              <div class="wholesale-audience">
+                <h3>Bodegas &amp; Corner Stores</h3>
+                <p>
+                  Neighborhood shops and convenience stores that want a dependable weekly loaf or pastry drop
+                  without big warehouse minimums. We size orders for smaller stores.
+                </p>
+              </div>
+              <div class="wholesale-audience">
+                <h3>Restaurants &amp; Bistros</h3>
+                <p>
+                  Dinner service bread, burger buns, sandwich loaves, and shareable formats for tables. Tell us
+                  your menu and we&apos;ll suggest a bake schedule that holds up through service.
+                </p>
+              </div>
+              <div class="wholesale-audience">
+                <h3>Cafés &amp; Coffee Shops</h3>
+                <p>
+                  Morning bagels, toast bread, scones, and pastries that move at the counter. Early delivery
+                  windows so your case is full when doors open.
+                </p>
+              </div>
+              <div class="wholesale-audience">
+                <h3>Market Vendors &amp; Pop Ups</h3>
+                <p>
+                  Farmers market tables, holiday markets, and event vendors who need extra inventory baked to
+                  order, or a special run for a packed weekend.
+                </p>
+              </div>
+              <div class="wholesale-audience">
+                <h3>Catering, Offices &amp; Events</h3>
+                <p>
+                  Corporate breakfasts, wedding platters, gift boxes, and single event orders. We plan ahead so
+                  larger quantities still come out of the oven, not off a freezer truck.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <div class="wholesale-benefits">
+            <div class="schedule-card promo-card wholesale-benefit">
+              <h3 class="schedule-card__title">Food You Can Stand Behind</h3>
+              <p class="promo-card__text">
+                Long fermentation, scratch ingredients, and small batches. Whether the bread lands on a shelf, a
+                plate, or a market table, your customers can taste the difference.
+              </p>
+            </div>
+            <div class="schedule-card promo-card wholesale-benefit">
+              <h3 class="schedule-card__title">Delivery That Fits Your Week</h3>
+              <p class="promo-card__text">
+                Standing orders for shops, early drops for cafés, and planned runs for restaurants before service.
+                You know what&apos;s coming and when.
+              </p>
+            </div>
+            <div class="schedule-card promo-card wholesale-benefit">
+              <h3 class="schedule-card__title">Built Around Your Business</h3>
+              <p class="promo-card__text">
+                Custom quantities, seasonal features, and bakes built around your menu. We would rather grow
+                with a few good partners than overload the kitchen.
+              </p>
+            </div>
+          </div>
+
+          <section class="wholesale-offerings" aria-labelledby="wholesale-offerings-title">
+            <div class="wholesale-offerings__head">
+              <h2 class="wholesale-offerings__title" id="wholesale-offerings-title">What We Wholesale</h2>
+              <p class="wholesale-offerings__lead">
+                Core items available all year, plus seasonal pastries and holiday bakes. Mix and match for retail
+                shelves, restaurant service, or your counter display.
+              </p>
+            </div>
+            <div class="wholesale-offerings__grid">
+              <div class="wholesale-offering">
+                <h3>Sourdough &amp; Artisan Loaves</h3>
+                <p>Country sourdough, seeded loaves, and rotating specialties for retail shelves, table bread, and sandwiches.</p>
+              </div>
+              <div class="wholesale-offering">
+                <h3>Bagels &amp; Morning Bakes</h3>
+                <p>Hand rolled bagels and breakfast pastries for cafés, bodegas, and shops that sell out by noon.</p>
+              </div>
+              <div class="wholesale-offering">
+                <h3>Cookies &amp; Treats</h3>
+                <p>Grab and go cookies, bars, and sweets for checkout lanes, coffee counters, and dessert menus.</p>
+              </div>
+              <div class="wholesale-offering">
+                <h3>Holiday, Catering &amp; Custom</h3>
+                <p>Pies, gift boxes, event platters, and limited run collaborations for holidays and special orders.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="wholesale-process" aria-labelledby="wholesale-process-title">
+            <h2 class="wholesale-process__title" id="wholesale-process-title">How Partnering Works</h2>
+            <ol class="wholesale-process__steps">
+              <li class="wholesale-process__step">
+                <span class="wholesale-process__number">01</span>
+                <div>
+                  <h3>Reach Out</h3>
+                  <p>Tell us what kind of business you run. Store, restaurant, bodega, market vendor, or event. Let us know what you want to stock. There is no minimum order just to start talking.</p>
+                </div>
+              </li>
+              <li class="wholesale-process__step">
+                <span class="wholesale-process__number">02</span>
+                <div>
+                  <h3>Sample &amp; Plan</h3>
+                  <p>We&apos;ll arrange a tasting and build a product list, pricing, and delivery schedule around how your kitchen or store actually operates.</p>
+                </div>
+              </li>
+              <li class="wholesale-process__step">
+                <span class="wholesale-process__number">03</span>
+                <div>
+                  <h3>First Delivery</h3>
+                  <p>Your first order arrives fresh from our kitchen with clear labeling and handling notes for your team.</p>
+                </div>
+              </li>
+              <li class="wholesale-process__step">
+                <span class="wholesale-process__number">04</span>
+                <div>
+                  <h3>Grow Together</h3>
+                  <p>As your customers respond, we adjust quantities, add seasonal items, and keep the partnership working for both sides.</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          <section class="wholesale-retail" id="retail-locations" aria-labelledby="retail-locations-title">
+            <header class="wholesale-retail__intro">
+              <p class="wholesale-page__eyebrow">Find Our Bread</p>
+              <h2 class="wholesale-retail__title" id="retail-locations-title">Where We&apos;re Stocked</h2>
+              <p class="wholesale-retail__lead">
+                Search by city or zip to find shops already carrying Sweet Earth Delights. Interested in joining
+                the list? <a href="contact.html#order-form">Contact us about wholesaling</a>.
+              </p>
+            </header>
+
+            <div class="location-finder location-finder--retail" id="location-finder" data-location-filter="retail">
+              <div class="location-finder__toolbar location-finder__toolbar--retail">
+                <form class="location-finder__search" id="location-search-form" role="search">
+                  <label class="location-finder__label" for="location-search">Location</label>
+                  <div class="location-finder__search-row">
+                    <input
+                      class="location-finder__input"
+                      id="location-search"
+                      name="location"
+                      type="search"
+                      placeholder="Enter city or zip code"
+                      autocomplete="postal-code"
+                      inputmode="search"
+                    >
+                    <button class="location-finder__submit" type="submit">Search</button>
+                  </div>
+                </form>
+
+                <div class="location-finder__filters location-finder__filters--single">
+                  <div class="location-finder__filter">
+                    <label class="location-finder__label" for="location-radius">Radius</label>
+                    <select class="location-finder__select" id="location-radius" name="radius">
+                      <option value="10">10 mi</option>
+                      <option value="25" selected>25 mi</option>
+                      <option value="50">50 mi</option>
+                      <option value="100">100 mi</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <p class="location-finder__status" id="location-results-status" aria-live="polite"></p>
+
+              <div class="location-finder__workspace">
+                <aside class="location-finder__panel" aria-label="Retail partner results">
+                  <div class="location-finder__panel-head">
+                    <h3 class="location-finder__panel-title">Retail partners</h3>
+                    <p class="location-finder__panel-count" id="location-results-count"></p>
+                  </div>
+                  <div class="location-finder__results" id="location-results"></div>
+                </aside>
+
+                <div class="location-finder__map-wrap">
+                  <div class="location-finder__map" id="location-map" role="region" aria-label="Map of retail partners"></div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="wholesale-cta" aria-labelledby="wholesale-cta-title">
+            <div class="wholesale-cta__inner">
+              <h2 class="wholesale-cta__title" id="wholesale-cta-title">Inquire About Wholesale</h2>
+              <p class="wholesale-cta__lead">
+                Running a restaurant in Omaha? Stocking a bodega in Bellevue? Filling a pastry case or setting up
+                a market table? Send us your business name, location, and what you need. We will follow up with
+                samples, wholesale pricing, and delivery options.
+              </p>
+              <div class="wholesale-cta__actions">
+                <a href="contact.html#order-form" class="markets-section__cta">Inquire About Wholesale</a>
+                <a href="mailto:sales@sweetearthdelights.com?subject=Wholesale%20Inquiry" class="markets-section__cta markets-section__cta--outline">Email Us Directly</a>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo" aria-label="Sweet Earth Delights home">
+            <img src="images/logo-footer.svg" alt="Sweet Earth Delights" width="140" height="110">
+          </a>
+          <p class="footer-tagline">Artisan baked goods from our home kitchen.</p>
+        </div>
+
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4 class="footer-heading">Contact</h4>
+            <address>
+              Bellevue, NE<br>
+              Serving Omaha Metro Area<br>
+              <a href="mailto:sales@sweetearthdelights.com">sales@sweetearthdelights.com</a>
+            </address>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Explore</h4>
+            <ul class="footer-links">
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="find-us.html">Find Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="schedule.html">2026 Schedule</a></li>
+              <li><a href="wholesale.html">Wholesale</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Follow</h4>
+            <ul class="footer-links">
+              <li><a href="https://www.instagram.com/sweetearthdelights/" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">Instagram</a></li>
+              <li><a href="#" aria-label="Sweet Earth Delights on Facebook">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bar">
+        <p class="copyright">&copy; Sweet Earth Delights 2026. All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/locations-data.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/wholesale.js" defer></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+  <script src="js/locations.js" defer></script>
+</body>
+</html>

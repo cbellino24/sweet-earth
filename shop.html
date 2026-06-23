@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Sweet Earth Delights</title>
+  <meta name="description" content="Shop sourdough loaves, bagels, pastries, and treats from Sweet Earth Delights. Order for pickup from our Bellevue home kitchen.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Figtree:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="page-container">
+    <header class="site-header" id="custom-header">
+      <div class="header-top">
+        <a href="index.html" class="header-logo" aria-label="Sweet Earth Delights home">
+          <img src="images/logo.svg" alt="Sweet Earth Delights" width="180" height="141">
+        </a>
+      </div>
+    </header>
+
+    <div class="header-nav-row" id="header-nav">
+      <div class="header-nav-inner">
+        <nav class="primary-nav" aria-label="Primary">
+          <button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shop.html" class="active" aria-current="page">Shop</a></li>
+            <li><a href="find-us.html">Find Us</a></li>
+            <li><a href="schedule.html">2026 Pop Ups &amp; Farmer Markets</a></li>
+            <li><a href="wholesale.html">Wholesale</a></li>
+          </ul>
+        </nav>
+        <div class="header-social" aria-label="Follow Sweet Earth Delights">
+          <a href="https://www.instagram.com/sweetearthdelights/" class="header-social__link" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">
+            <img src="images/icon-instagram.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+          <a href="#" class="header-social__link" aria-label="Sweet Earth Delights on Facebook">
+            <img src="images/icon-facebook.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <main id="et-main-area">
+      <section class="shop-page" id="shop" aria-labelledby="shop-title">
+        <div class="shop-page__container">
+          <header class="shop-page__intro">
+            <p class="shop-page__eyebrow">Shop</p>
+            <h1 class="shop-page__title" id="shop-title">From Our Kitchen</h1>
+            <p class="shop-page__lead">
+              Small-batch bakes made to order. Submit your request through our order form and we&apos;ll
+              confirm availability, pickup time, and payment by email.
+            </p>
+          </header>
+
+          <div class="shop-page__toolbar">
+            <nav class="shop-categories" aria-label="Filter by category">
+              <ul class="shop-categories__list">
+                <li><button type="button" class="shop-categories__btn is-active" data-shop-filter="all">All</button></li>
+                <li><button type="button" class="shop-categories__btn" data-shop-filter="bread">Bread</button></li>
+                <li><button type="button" class="shop-categories__btn" data-shop-filter="bagels">Bagels</button></li>
+                <li><button type="button" class="shop-categories__btn" data-shop-filter="pastries">Pastries</button></li>
+                <li><button type="button" class="shop-categories__btn" data-shop-filter="treats">Treats</button></li>
+              </ul>
+            </nav>
+            <p class="shop-page__count" id="shop-count" aria-live="polite">12 products</p>
+          </div>
+
+          <div class="shop-grid" id="shop-grid">
+            <article class="shop-product" data-category="bread">
+              <a class="shop-product__link" href="product.html?p=classic-sourdough-loaf">
+                <div class="shop-product__media">
+                  <img src="images/sourdough-made-daily-in-omaha.jpg" alt="Classic sourdough loaf" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bread</p>
+                  <h2 class="shop-product__title">Classic Sourdough Loaf</h2>
+                  <p class="shop-product__desc">Long-fermented loaf with a golden crust and tangy, open crumb.</p>
+                  <p class="shop-product__meta">~1 lb loaf</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$9.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="bread">
+              <a class="shop-product__link" href="product.html?p=country-sourdough">
+                <div class="shop-product__media">
+                  <img src="images/true-sourdough-bread-omaha.jpg" alt="Country sourdough loaf" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bread</p>
+                  <h2 class="shop-product__title">Country Sourdough</h2>
+                  <p class="shop-product__desc">Rustic round with a hearty crust. Our everyday table bread.</p>
+                  <p class="shop-product__meta">~1.25 lb round</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$10.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="bread">
+              <a class="shop-product__link" href="product.html?p=seeded-sourdough">
+                <div class="shop-product__media">
+                  <img src="images/sourdough-bread-in-bellevue-ne-fresh.jpg" alt="Seeded sourdough loaf" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bread</p>
+                  <h2 class="shop-product__title">Seeded Sourdough</h2>
+                  <p class="shop-product__desc">Country dough finished with sunflower, flax, and sesame seeds.</p>
+                  <p class="shop-product__meta">~1 lb loaf</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$10.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="bread">
+              <a class="shop-product__link" href="product.html?p=same-day-boule">
+                <div class="shop-product__media">
+                  <img src="images/sourdough-bread-2-omaha.jpg" alt="Same-day sourdough boule" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bread</p>
+                  <h2 class="shop-product__title">Same-Day Boule</h2>
+                  <p class="shop-product__desc">Mixed and baked to order when our schedule allows. Ask ahead.</p>
+                  <p class="shop-product__meta">~1 lb boule</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$9.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="bagels">
+              <a class="shop-product__link" href="product.html?p=plain-bagels">
+                <div class="shop-product__media">
+                  <img src="images/sweet-earth-bagels.jpg" alt="Plain bagels six-pack" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bagels</p>
+                  <h2 class="shop-product__title">Plain Bagels (6)</h2>
+                  <p class="shop-product__desc">Hand-rolled, boiled, and baked the same morning you pick up.</p>
+                  <p class="shop-product__meta">6 pack</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$10.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="bagels">
+              <a class="shop-product__link" href="product.html?p=everything-bagels">
+                <div class="shop-product__media">
+                  <img src="images/bagels-sweet-earth-2.jpg" alt="Everything bagels six-pack" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Bagels</p>
+                  <h2 class="shop-product__title">Everything Bagels (6)</h2>
+                  <p class="shop-product__desc">Six bagels topped with everything seasoning, baked fresh.</p>
+                  <p class="shop-product__meta">6 pack</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$12.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="pastries">
+              <a class="shop-product__link" href="product.html?p=cinnamon-roll">
+                <div class="shop-product__media">
+                  <img src="images/cinnamon-rolls-omaha-sweet-earth.jpg" alt="Cinnamon roll" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Pastries</p>
+                  <h2 class="shop-product__title">Cinnamon Roll</h2>
+                  <p class="shop-product__desc">Soft roll with brown sugar cinnamon filling and a light glaze.</p>
+                  <p class="shop-product__meta">Single roll</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$4.50</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="pastries">
+              <a class="shop-product__link" href="product.html?p=seasonal-pastry-box">
+                <div class="shop-product__media">
+                  <img src="images/sweet-earth-delights-2-hero.jpg" alt="Seasonal pastry box" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Pastries</p>
+                  <h2 class="shop-product__title">Seasonal Pastry Box</h2>
+                  <p class="shop-product__desc">A mixed box of whatever we are baking that week. Contents vary.</p>
+                  <p class="shop-product__meta">4 to 6 pieces</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$18.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="pastries">
+              <a class="shop-product__link" href="product.html?p=butter-croissant">
+                <div class="shop-product__media">
+                  <img src="images/sweet-earth-bread-23.jpg" alt="Butter croissant" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Pastries</p>
+                  <h2 class="shop-product__title">Butter Croissant</h2>
+                  <p class="shop-product__desc">Laminated with butter and baked until flaky at the edges.</p>
+                  <p class="shop-product__meta">Single pastry</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$4.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="treats">
+              <a class="shop-product__link" href="product.html?p=chocolate-chip-cookies">
+                <div class="shop-product__media">
+                  <img src="images/sweet-earth-delights-4.jpg" alt="Chocolate chip cookies" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Treats</p>
+                  <h2 class="shop-product__title">Chocolate Chip Cookies (6)</h2>
+                  <p class="shop-product__desc">Six cookies with dark chocolate chips, baked soft in the center.</p>
+                  <p class="shop-product__meta">6 pack</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$9.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="treats">
+              <a class="shop-product__link" href="product.html?p=english-muffins">
+                <div class="shop-product__media">
+                  <img src="images/english-muffins.jpg" alt="English muffins four-pack" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Treats</p>
+                  <h2 class="shop-product__title">English Muffins (4)</h2>
+                  <p class="shop-product__desc">Sourdough muffins with a nooks-and-crannies crumb. Split and toast.</p>
+                  <p class="shop-product__meta">4 pack</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$8.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+
+            <article class="shop-product" data-category="treats">
+              <a class="shop-product__link" href="product.html?p=raw-local-honey">
+                <div class="shop-product__media">
+                  <img src="images/raw-local-honey-omaha.jpg" alt="Raw local honey jar" width="400" height="400" loading="lazy" decoding="async">
+                </div>
+                <div class="shop-product__body">
+                  <p class="shop-product__category">Treats</p>
+                  <h2 class="shop-product__title">Raw Local Honey</h2>
+                  <p class="shop-product__desc">Nebraska honey from a local apiary. Pairs well with our sourdough.</p>
+                  <p class="shop-product__meta">8 oz jar</p>
+                  <div class="shop-product__footer">
+                    <p class="shop-product__price">$12.00</p>
+                  </div>
+                </div>
+              </a>
+            </article>
+          </div>
+
+          <footer class="shop-page__footer">
+            <p class="shop-page__note">
+              Prices are a guide — final totals depend on the day&apos;s bake and your pickup window.
+              <a href="contact.html#order-form">Submit an order request</a> and we&apos;ll confirm by email.
+            </p>
+            <a href="contact.html#order-form" class="shop-page__order-btn">Order for Pickup</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo" aria-label="Sweet Earth Delights home">
+            <img src="images/logo-footer.svg" alt="Sweet Earth Delights" width="140" height="110">
+          </a>
+          <p class="footer-tagline">Artisan baked goods from our home kitchen.</p>
+        </div>
+
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h4 class="footer-heading">Contact</h4>
+            <address>
+              Bellevue, NE<br>
+              Serving Omaha Metro Area<br>
+              <a href="mailto:sales@sweetearthdelights.com">sales@sweetearthdelights.com</a>
+            </address>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Explore</h4>
+            <ul class="footer-links">
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="find-us.html">Find Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li><a href="schedule.html">2026 Schedule</a></li>
+              <li><a href="index.html#order">Order Now</a></li>
+              <li><a href="wholesale.html">Wholesale</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Follow</h4>
+            <ul class="footer-links">
+              <li><a href="https://www.instagram.com/sweetearthdelights/" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">Instagram</a></li>
+              <li><a href="#" aria-label="Sweet Earth Delights on Facebook">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bar">
+        <p class="copyright">&copy; Sweet Earth Delights 2026. All Rights Reserved</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

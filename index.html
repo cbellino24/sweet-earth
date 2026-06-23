@@ -7,8 +7,9 @@
   <meta name="description" content="Sweet Earth Delights — artisan bakery offering fresh pastries, bread, cupcakes, and specialty coffee.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Figtree:wght@300;400;500;600;700;800&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Figtree:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="images/sweet-earth-delights-2-hero.jpg" fetchpriority="high">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -31,14 +32,22 @@
           </button>
           <ul class="nav-list">
             <li><a href="/" class="active" aria-current="page">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#shop">Shop</a></li>
-            <li><a href="#find-us">Find Us</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="find-us.html">Find Us</a></li>
             <li><a href="schedule.html">2026 Pop Ups &amp; Farmer Markets</a></li>
-            <li><a href="#wholesale">Wholesale</a></li>
+            <li><a href="wholesale.html">Wholesale</a></li>
           </ul>
         </nav>
+        <div class="header-social" aria-label="Follow Sweet Earth Delights">
+          <a href="https://www.instagram.com/sweetearthdelights/" class="header-social__link" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">
+            <img src="images/icon-instagram.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+          <a href="#" class="header-social__link" aria-label="Sweet Earth Delights on Facebook">
+            <img src="images/icon-facebook.svg" alt="" width="24" height="24" decoding="async">
+          </a>
+        </div>
       </div>
     </div>
 
@@ -47,16 +56,41 @@
       <section class="hero-slider" aria-label="Featured">
         <div class="hero-slides">
           <div class="hero-slide active" style="--slide-index: 0">
-            <img src="images/sweet-earth-delights-2-hero.jpg" alt="Sweet Earth Delights fresh baked goods">
+            <img
+              src="images/sweet-earth-delights-2-hero.jpg"
+              alt="Sweet Earth Delights fresh baked goods"
+              width="1672"
+              height="941"
+              fetchpriority="high"
+              decoding="async"
+            >
           </div>
           <div class="hero-slide" style="--slide-index: 1">
-            <img src="images/bagels-sweet-earth-2.jpg" alt="Fresh bagels from Sweet Earth Delights">
+            <img
+              data-src="images/bagels-sweet-earth-2.jpg"
+              alt="Fresh bagels from Sweet Earth Delights"
+              width="1898"
+              height="829"
+              decoding="async"
+            >
           </div>
           <div class="hero-slide" style="--slide-index: 2">
-            <img src="images/sweet-earth-delights-1-hero.jpg" alt="Sweet Earth Delights artisan baked goods">
+            <img
+              data-src="images/sweet-earth-delights-1-hero.jpg"
+              alt="Sweet Earth Delights artisan baked goods"
+              width="1672"
+              height="941"
+              decoding="async"
+            >
           </div>
           <div class="hero-slide" style="--slide-index: 3">
-            <img src="https://sugarandsagebakery.com/wp-content/uploads/2026/03/spring-slider-DSY08950.jpg" alt="Seasonal treats">
+            <img
+              data-src="images/sourdough-made-daily-in-omaha.jpg"
+              alt="Sourdough made daily in Omaha"
+              width="1920"
+              height="1280"
+              decoding="async"
+            >
           </div>
         </div>
 
@@ -66,9 +100,9 @@
           <div class="hero-content-inner">
             <h1 class="hero-headline">Savor Sourdough</h1>
             <div class="hero-cta-group">
-              <a href="#find-us" class="hero-btn">Find Sweet Earth Near You</a>
+              <a href="find-us.html" class="hero-btn">Find Sweet Earth Near You</a>
               <a href="schedule.html" class="hero-btn">View Farmers Markets</a>
-              <a href="#contact" class="hero-btn">Contact Us</a>
+              <a href="contact.html" class="hero-btn">Contact Us</a>
             </div>
           </div>
         </div>
@@ -84,7 +118,7 @@
                 <h2 class="tile-heading">Baked Fresh Daily</h2>
                 <a href="#pastries" class="tile-cta">Shop Now</a>
               </div>
-              <div class="four-square-grid__topright" style="background-image: url('images/sweet-earth-delights-owner.jpg');" role="img" aria-label="Sweet Earth Delights owner"></div>
+              <div class="four-square-grid__topright" style="background-image: url('images/sourdough-bread-in-bellevue-ne-fresh.jpg');" role="img" aria-label="Fresh sourdough bread in Bellevue, NE"></div>
             </div>
 
             <div class="four-square-grid__bottomrow">
@@ -101,42 +135,9 @@
                 </p>
                 <div class="tile-actions">
                   <a href="#pastries" class="tile-cta">Shop Now</a>
-                  <a href="#about" class="tile-link">Learn More <span class="tile-link__icon" aria-hidden="true">→</span></a>
+                  <a href="about.html" class="tile-link">Learn More <span class="tile-link__icon" aria-hidden="true">→</span></a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="pods-block-wrap">
-          <div class="pods-block">
-            <h2 class="pods-block__heading">Pick Up Options</h2>
-            <p class="pods-block__subheading">
-              We make it easy to get Sweet Earth Delights fresh from our home kitchen. Fill out our order
-              form for scheduled pickup, find us at a farmers market or pop-up near you, or get in touch
-              about custom and wholesale orders.
-            </p>
-            <a href="#order" class="pods-block__cta">Learn More</a>
-
-            <div class="pods-grid">
-              <a href="#contact" class="pod-card">
-                <div class="pod-card__image">
-                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-contact.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
-                </div>
-                <p class="pod-card__label">Scheduled Pickup</p>
-              </a>
-              <a href="#find-us" class="pod-card">
-                <div class="pod-card__image">
-                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-farmers-market.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
-                </div>
-                <p class="pod-card__label">Farmers Markets &amp; Pop-Ups</p>
-              </a>
-              <a href="#find-us" class="pod-card">
-                <div class="pod-card__image">
-                  <img class="pod-card__icon pod-card__icon--contain" src="images/icon-find-stores.svg" alt="" width="360" height="288" loading="lazy" decoding="async">
-                </div>
-                <p class="pod-card__label">Find Near You</p>
-              </a>
             </div>
           </div>
         </div>
@@ -154,31 +155,31 @@
               Sweet Earth Delights crafts artisan baked goods the old-fashioned way: from scratch,
               in small batches, and with wholesome ingredients from our home kitchen.
             </p>
-            <a href="#pastries" class="products-section__cta" aria-label="View more products">View More</a>
+            <a href="shop.html" class="products-section__cta" aria-label="View all products">View All</a>
           </div>
 
           <div class="products-section__grid">
-            <a href="#pastries" class="product-card">
+            <a href="shop.html" class="product-card">
               <div class="product-card__image">
-                <img src="images/sweet-earth-delights-1-hero.jpg" alt="Rustic sourdough loaves" loading="lazy" decoding="async">
+                <img src="images/sweet-earth-delights-1-hero.jpg" alt="Rustic sourdough loaves" width="1672" height="941" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Sourdough Loaves</h3>
             </a>
-            <a href="#pastries" class="product-card">
+            <a href="shop.html" class="product-card">
               <div class="product-card__image">
-                <img src="images/sweet-earth-bagels.jpg" alt="Fresh bagels" loading="lazy" decoding="async">
+                <img src="images/sweet-earth-bagels.jpg" alt="Fresh bagels" width="532" height="800" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Bagels</h3>
             </a>
-            <a href="#pastries" class="product-card">
+            <a href="shop.html" class="product-card">
               <div class="product-card__image">
-                <img src="images/english-muffins.png" alt="English muffins and seasonal treats" loading="lazy" decoding="async">
+                <img src="images/english-muffins.jpg" alt="English muffins and seasonal treats" width="532" height="800" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Cookies &amp; Treats</h3>
             </a>
-            <a href="#pastries" class="product-card">
+            <a href="shop.html" class="product-card">
               <div class="product-card__image">
-                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Artisan pastries" loading="lazy" decoding="async">
+                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Artisan pastries" width="1672" height="941" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Pastries</h3>
             </a>
@@ -195,8 +196,8 @@
             <h2 class="markets-section__title" id="find-us-heading">How We Reach You</h2>
             <p class="markets-section__lead">
               Sweet Earth Delights is a home-based bakery that comes to you. Through farmers markets,
-              seasonal pop-ups, and scheduled pickup from our kitchen, we share small-batch sourdough,
-              pastries, and treats baked fresh from scratch.
+              seasonal pop-ups, scheduled pickup from our kitchen, and select local retail partners, we share
+              small-batch sourdough, pastries, and treats baked fresh from scratch.
             </p>
           </header>
 
@@ -216,13 +217,22 @@
                 Pop-ups are a great way to try limited-run items and see what&apos;s new from our home kitchen.
               </p>
             </div>
+            <div class="schedule-card promo-card" id="find-near-you">
+              <h3 class="schedule-card__title">Local Retail</h3>
+              <p class="promo-card__text">
+                Select shops and markets across the Omaha metro area carry Sweet Earth Delights bread on
+                their shelves. Grab a fresh loaf from a retail partner near you.
+              </p>
+            </div>
           </div>
 
           <footer class="markets-section__footer">
-            <p class="markets-section__note">For dates, times, and locations, visit our 2026 schedule page or reach out with questions.</p>
+            <p class="markets-section__note">For dates, times, and locations, visit our 2026 schedule page, find a retail partner near you, or reach out with questions.</p>
+
             <div class="markets-section__actions">
               <a href="schedule.html" class="markets-section__cta">2026 Pop Ups &amp; Farmer Markets</a>
-              <a href="#contact" class="markets-section__cta markets-section__cta--outline">Contact Us</a>
+              <a href="find-us.html" class="markets-section__cta markets-section__cta--outline">Find Near You</a>
+              <a href="contact.html" class="markets-section__cta markets-section__cta--outline">Contact Us</a>
             </div>
 
           </footer>
@@ -234,10 +244,10 @@
         <div class="headline-text-images-banner__cover">
           <img
             class="headline-text-images-banner__cover-image"
-            src="images/wood-texture.png"
+            src="images/wood-texture.jpg"
             alt=""
-            width="1920"
-            height="552"
+            width="1536"
+            height="1024"
             loading="lazy"
             decoding="async"
           >
@@ -264,8 +274,8 @@
               class="headline-text-images-banner__food-image"
               src="images/sweet-earth-setup.png"
               alt="Sweet Earth Delights bakery setup with bagels and cookies"
-              width="1983"
-              height="793"
+              width="1600"
+              height="640"
               loading="lazy"
               decoding="async"
             >
@@ -288,10 +298,10 @@
               <li>Call ahead for larger orders and weekend specials</li>
             </ul>
             <div class="order-buttons">
-              <a href="#contact" class="order-btn">Order Form</a>
+              <a href="contact.html" class="order-btn">Order Form</a>
               <a href="schedule.html" class="order-btn order-btn--outline">View 2026 Schedule</a>
             </div>
-            <p class="order-note">Planning a larger order? Visit our <a href="#wholesale" class="text-link">Wholesale</a> page or <a href="#contact" class="text-link">contact us</a> directly.</p>
+            <p class="order-note">Planning a larger order? Visit our <a href="wholesale.html" class="text-link">Wholesale</a> page or <a href="contact.html" class="text-link">contact us</a> directly.</p>
           </div>
           <div class="order-phone">
             <div class="phone-mockup" aria-hidden="true">
@@ -345,12 +355,12 @@
           <a href="#" class="photo-grid-item"><img src="images/sourdoug-bread-3-omaha.png" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
           <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-5.jpg" alt="Seasonal treats" loading="lazy" decoding="async"></a>
           <a href="#" class="photo-grid-item wide"><img src="images/sweet-earth-bread-23.jpg" alt="Bakery counter" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="https://sugarandsagebakery.com/wp-content/uploads/2025/03/spring-grid-s1.jpg" alt="Pastries"></a>
+          <a href="#" class="photo-grid-item"><img src="images/true-sourdough-bread-omaha.jpg" alt="True sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
         </div>
       </section>
     </main>
 
-    <footer class="site-footer" id="contact">
+    <footer class="site-footer">
       <div class="footer-inner">
         <div class="footer-brand">
           <a href="/" class="footer-logo" aria-label="Sweet Earth Delights home">
@@ -372,11 +382,13 @@
           <div class="footer-col">
             <h4 class="footer-heading">Explore</h4>
             <ul class="footer-links">
-              <li><a href="#about">Our Story</a></li>
-                <li><a href="#find-us">Find Us</a></li>
+              <li><a href="about.html">Our Story</a></li>
+              <li><a href="find-us.html">Find Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="shop.html">Shop</a></li>
               <li><a href="schedule.html">2026 Schedule</a></li>
               <li><a href="#order">Order Now</a></li>
-              <li><a href="#wholesale">Wholesale</a></li>
+              <li><a href="wholesale.html">Wholesale</a></li>
             </ul>
           </div>
 
@@ -396,6 +408,6 @@
     </footer>
   </div>
 
-  <script src="js/main.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

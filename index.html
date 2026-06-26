@@ -115,7 +115,7 @@
             <div class="four-square-grid__toprow">
               <div class="four-square-grid__topleft">
                 <p class="tile-eyebrow">Our Story</p>
-                <h2 class="tile-heading">Baked Fresh Daily</h2>
+                <h2 class="tile-heading">Handcrafted Sourdough</h2>
                 <a href="#pastries" class="tile-cta">Shop Now</a>
               </div>
               <div class="four-square-grid__topright" style="background-image: url('images/sourdough-bread-in-bellevue-ne-fresh.jpg');" role="img" aria-label="Fresh sourdough bread in Bellevue, NE"></div>
@@ -155,7 +155,6 @@
               Sweet Earth Delights crafts artisan baked goods the old-fashioned way: from scratch,
               in small batches, and with wholesome ingredients from our home kitchen.
             </p>
-            <a href="shop.html" class="products-section__cta" aria-label="View all products">View All</a>
           </div>
 
           <div class="products-section__grid">
@@ -173,16 +172,14 @@
             </a>
             <a href="shop.html" class="product-card">
               <div class="product-card__image">
-                <img src="images/english-muffins.jpg" alt="English muffins and seasonal treats" width="532" height="800" loading="lazy" decoding="async">
+                <img src="images/english-muffins-sweet-earth.jpg" alt="English muffins and seasonal treats" width="532" height="800" loading="lazy" decoding="async">
               </div>
               <h3 class="product-card__name">Cookies &amp; Treats</h3>
             </a>
-            <a href="shop.html" class="product-card">
-              <div class="product-card__image">
-                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Artisan pastries" width="1672" height="941" loading="lazy" decoding="async">
-              </div>
-              <h3 class="product-card__name">Pastries</h3>
-            </a>
+          </div>
+
+          <div class="products-section__actions">
+            <a href="shop.html" class="products-section__cta" aria-label="View all products">View All Products</a>
           </div>
         </div>
 
@@ -192,9 +189,9 @@
       <section class="markets-section" id="find-us" aria-labelledby="find-us-heading">
         <div class="markets-section__container">
           <header class="markets-section__intro">
-            <p class="markets-section__eyebrow">Find Us</p>
-            <h2 class="markets-section__title" id="find-us-heading">How We Reach You</h2>
-            <p class="markets-section__lead">
+            <p class="markets-section__eyebrow" data-markets-reveal>Find Us</p>
+            <h2 class="markets-section__title" id="find-us-heading" data-markets-reveal>How We Reach You</h2>
+            <p class="markets-section__lead" data-markets-reveal>
               Sweet Earth Delights is a home-based bakery that comes to you. Through farmers markets,
               seasonal pop-ups, scheduled pickup from our kitchen, and select local retail partners, we share
               small-batch sourdough, pastries, and treats baked fresh from scratch.
@@ -202,7 +199,7 @@
           </header>
 
           <div class="markets-section__grid">
-            <div class="schedule-card promo-card">
+            <div class="schedule-card promo-card" data-markets-reveal>
               <h3 class="schedule-card__title">Summer Farmers Markets</h3>
               <p class="promo-card__text">
                 When market season arrives, we bring a rotating selection of sourdough loaves, bagels,
@@ -210,14 +207,14 @@
                 to take home.
               </p>
             </div>
-            <div class="schedule-card promo-card">
+            <div class="schedule-card promo-card" data-markets-reveal>
               <h3 class="schedule-card__title">Pop-Ups &amp; Events</h3>
               <p class="promo-card__text">
                 We set up at community events, holiday markets, and special bake days throughout the year.
                 Pop-ups are a great way to try limited-run items and see what&apos;s new from our home kitchen.
               </p>
             </div>
-            <div class="schedule-card promo-card" id="find-near-you">
+            <div class="schedule-card promo-card" id="find-near-you" data-markets-reveal>
               <h3 class="schedule-card__title">Local Retail</h3>
               <p class="promo-card__text">
                 Select shops and markets across the Omaha metro area carry Sweet Earth Delights bread on
@@ -315,6 +312,20 @@
       </section>
 
 
+      <!-- Photo Grid -->
+      <section class="photo-grid-section" id="pastries">
+        <div class="photo-grid">
+          <a href="#" class="photo-grid-item"><img src="images/sourdough-bread-2-omaha.jpg" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-4.jpg" alt="Cookies from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delight-4-omaha.png" alt="Fresh baked goods from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sourdoug-bread-3-omaha.png" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-5.jpg" alt="Seasonal treats" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item"><img src="images/true-sourdough-bread-omaha.jpg" alt="True sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
+          <a href="#" class="photo-grid-item wide"><img src="images/sweet-earth-bread-23.jpg" alt="Bakery counter" loading="lazy" decoding="async"></a>
+        </div>
+      </section>
+
+
       <!-- Newsletter Sign Up -->
       <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
         <div class="newsletter-section__container">
@@ -342,20 +353,6 @@
               <button type="submit" class="newsletter-form__submit">Subscribe</button>
             </div>
           </form>
-        </div>
-      </section>
-
-
-      <!-- Photo Grid -->
-      <section class="photo-grid-section" id="pastries">
-        <div class="photo-grid">
-          <a href="#" class="photo-grid-item"><img src="images/sourdough-bread-2-omaha.jpg" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-4.jpg" alt="Cookies from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delight-4-omaha.png" alt="Fresh baked goods from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sourdoug-bread-3-omaha.png" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-5.jpg" alt="Seasonal treats" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item wide"><img src="images/sweet-earth-bread-23.jpg" alt="Bakery counter" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/true-sourdough-bread-omaha.jpg" alt="True sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
         </div>
       </section>
     </main>
@@ -399,6 +396,36 @@
               <li><a href="#" aria-label="Sweet Earth Delights on Facebook">Facebook</a></li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      <div class="footer-newsletter">
+        <div class="footer-newsletter__inner">
+          <form class="footer-newsletter__form" id="footer-newsletter-form" action="#" method="post" novalidate>
+            <label class="footer-newsletter__label" for="footer-newsletter-email">
+              Delicious deals, direct to your inbox:
+            </label>
+            <div class="footer-newsletter__fields">
+              <input
+                type="email"
+                id="footer-newsletter-email"
+                name="EMAIL"
+                class="footer-newsletter__input"
+                placeholder="Email address"
+                required
+                autocomplete="email"
+              >
+              <button type="submit" class="footer-newsletter__submit">Sign Up</button>
+            </div>
+          </form>
+          <p class="footer-newsletter__status" id="footer-newsletter-status" role="status" aria-live="polite" hidden></p>
+          <p class="footer-newsletter__legal">
+            This form is protected by reCAPTCHA and the
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
+            and
+            <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+            apply.
+          </p>
         </div>
       </div>
 

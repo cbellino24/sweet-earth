@@ -10,22 +10,25 @@
   function buildItems() {
     return partners
       .map(function (partner) {
-        var logo =
-          '<img class="partner-marquee__logo" src="' +
-          partner.logo +
-          '" alt="' +
-          partner.name +
-          '" width="200" height="56" loading="lazy" decoding="async">';
+        var inner = partner.logo
+          ? '<img class="partner-marquee__logo" src="' +
+            partner.logo +
+            '" alt="' +
+            partner.name +
+            '" width="200" height="56" loading="lazy" decoding="async">'
+          : '<span class="partner-marquee__name">' +
+            partner.name +
+            ' <span class="partner-marquee__sep" aria-hidden="true">◆</span></span>';
         if (partner.locationId) {
           return (
             '<a class="partner-marquee__item" href="#retail-locations" data-partner-id="' +
             partner.locationId +
             '">' +
-            logo +
+            inner +
             "</a>"
           );
         }
-        return '<div class="partner-marquee__item">' + logo + "</div>";
+        return '<div class="partner-marquee__item">' + inner + "</div>";
       })
       .join("");
   }

@@ -57,6 +57,13 @@
         menuToggle.setAttribute("aria-expanded", "false");
       });
     });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 980 && navList.classList.contains("is-open")) {
+        navList.classList.remove("is-open");
+        menuToggle.setAttribute("aria-expanded", "false");
+      }
+    });
   }
 
   const shopFilterBtns = document.querySelectorAll("[data-shop-filter]");
@@ -87,6 +94,20 @@
         updateShopFilter(btn.dataset.shopFilter);
       });
     });
+
+    const categoryParam = new URLSearchParams(window.location.search).get("category");
+    if (categoryParam) {
+      const matchBtn = document.querySelector(
+        '[data-shop-filter="' + categoryParam + '"]'
+      );
+      if (matchBtn) {
+        shopFilterBtns.forEach(function (b) {
+          b.classList.remove("is-active");
+        });
+        matchBtn.classList.add("is-active");
+        updateShopFilter(categoryParam);
+      }
+    }
   }
 
   const orderMessage = document.getElementById("contact-message");
@@ -99,4 +120,58 @@
         "\n\nQuantity: \nPreferred pickup date: ";
     }
   }
+
+  const newsletterForm = document.getElementById("footer-newsletter-form");
+  const newsletterStatus = document.getElementById("footer-newsletter-status");
+
+  if (newsletterForm) {
+    newsletterForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+
+      if (newsletterStatus) {
+        newsletterStatus.hidden = false;
+        newsletterStatus.textContent =
+          "Thanks for signing up! We'll be in touch soon.";
+      }
+
+      newsletterForm.reset();
+    });
+  }
+
+  const marketsSections = document.querySelectorAll(".markets-section");
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  marketsSections.forEach(function (section) {
+    const revealEls = section.querySelectorAll("[data-markets-reveal]");
+    if (!revealEls.length) return;
+
+    if (reduceMotion) {
+      section.classList.add("is-enhanced");
+      revealEls.forEach(function (el) {
+        el.classList.add("is-visible");
+      });
+      return;
+    }
+
+    section.classList.add("is-enhanced");
+
+    const observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
+        });
+      },
+      {
+        root: null,
+        rootMargin: "0px 0px -10% 0px",
+        threshold: 0.15,
+      }
+    );
+
+    revealEls.forEach(function (el) {
+      observer.observe(el);
+    });
+  });
 })();

@@ -12,7 +12,7 @@
       page.innerHTML =
         '<div class="product-page__container product-page__empty">' +
         "<h1>Product not found</h1>" +
-        '<p>We could not find that item. <a href=\"shop.html\">Browse the shop</a>.</p>" +
+        '<p>We could not find that item. <a href="shop.html">Browse the shop</a>.</p>' +
         "</div>";
     }
     return;
@@ -38,7 +38,9 @@
 
   if (categoryLink) {
     categoryLink.textContent = product.categoryLabel;
-    categoryLink.href = "shop.html";
+    categoryLink.href = product.category
+      ? "shop.html?category=" + encodeURIComponent(product.category)
+      : "shop.html";
   }
 
   if (categoryCurrent) {
@@ -53,6 +55,10 @@
   if (image) {
     image.src = product.image;
     image.alt = product.imageAlt;
+    var media = image.closest(".product-detail__media");
+    if (media) {
+      media.classList.toggle("product-detail__media--contain", product.imageFit === "contain");
+    }
   }
 
   if (title) title.textContent = product.name;

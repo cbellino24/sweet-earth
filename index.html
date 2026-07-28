@@ -1,441 +1,2017 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - Sweet Earth Delights</title>
-  <meta name="description" content="Sweet Earth Delights — artisan bakery offering fresh pastries, bread, cupcakes, and specialty coffee.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400&family=Figtree:wght@400;500;600;700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
-  <link rel="preload" as="image" href="images/sweet-earth-delights-2-hero.jpg" fetchpriority="high">
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-  <div id="page-container">
-    <header class="site-header" id="custom-header">
-      <div class="header-top">
-        <a href="/" class="header-logo" aria-label="Sweet Earth Delights home">
-          <img src="images/logo.svg" alt="Sweet Earth Delights" width="180" height="141">
-        </a>
+<!-- 452digitalco deploy 20260525-assets-fix -->
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      /* Only pin asset base on the live domain — local preview must load local CSS */
+      (function () {
+        var host = location.hostname;
+        if (host === "www.452digitalco.com" || host === "452digitalco.com") {
+          document.write('<base href="https://www.452digitalco.com/">');
+        }
+      })();
+    </script>
+    <script>/* force-https-fallback */if(location.protocol==="http:")location.replace("https://"+location.host+location.pathname+location.search+location.hash);</script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Papillion &amp; Omaha web design company. 452 Digital Co. builds lead-focused websites and local SEO for Nebraska businesses — including work for Bellino Fireworks, Lincoln Tent, and Lux American Grill. You own the files."
+    />
+    <link rel="canonical" href="https://www.452digitalco.com/" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="452 Digital Co." />
+    <meta property="og:title" content="452 Digital Co. | Web Design &amp; SEO in Papillion + Omaha" />
+    <meta property="og:description" content="Family-owned web design and local SEO in Papillion and Omaha. Signature client work includes Bellino Fireworks, Lincoln Tent, and Lux American Grill. Sites you own — no forced monthly rental." />
+    <meta property="og:url" content="https://www.452digitalco.com/" />
+    <meta property="og:image" content="https://www.452digitalco.com/images/452-digital-co-omaha.jpg" />
+    <meta property="og:image:alt" content="452 Digital Co. web design studio serving Papillion and Omaha, Nebraska" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="452 Digital Co. | Web Design &amp; SEO in Papillion + Omaha" />
+    <meta name="twitter:description" content="Papillion web design company serving Omaha and Nebraska. Real client sites, local SEO, and ownership — no forced monthly website fees." />
+    <meta name="twitter:image" content="https://www.452digitalco.com/images/452-digital-co-omaha.jpg" />
+    <title>452 Digital Co. | Web Design &amp; SEO Company in Papillion + Omaha, NE</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css?v=20260722ak" />
+    <link rel="stylesheet" href="css/home.css?v=20260722ak" />
+    <link rel="icon" href="images/graphic-design-in-omaha-logo.png" />
+
+    <script>
+      (() => {
+        try { localStorage.setItem("theme", "light"); document.documentElement.dataset.theme = "light"; } catch (_) { document.documentElement.dataset.theme = "light"; }
+      })();
+    </script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WB3XYW59J5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-WB3XYW59J5');
+    </script>
+  </head>
+  <body class="page-home">
+
+    <header class="site-header" data-header>
+      <div class="px-topbar" role="region" aria-label="Contact bar">
+        <div class="container px-topbar__inner">
+          <a class="px-topbar__link px-topbar__link--phone" href="tel:4028043315">
+            <svg class="px-topbar__icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <path d="M22 16.9v2a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 3.1 5.18 2 2 0 0 1 5.08 3h2a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.58-1.08a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.9z" />
+            </svg>
+            <span>(402) 804-3315</span>
+          </a>
+          <span class="px-topbar__sep" aria-hidden="true"></span>
+          <span class="px-topbar__text px-topbar__text--years">10+ years experience</span>
+          <span class="px-topbar__sep px-topbar__sep--years" aria-hidden="true"></span>
+          <span class="px-topbar__text px-topbar__text--place">Papillion / Omaha Web Designer</span>
+          <span class="px-topbar__sep px-topbar__sep--email" aria-hidden="true"></span>
+          <a class="px-topbar__link px-topbar__link--email" href="mailto:hello@452digitalco.com">
+            <svg class="px-topbar__icon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+            </svg>
+            <span>hello@452digitalco.com</span>
+          </a>
+        </div>
       </div>
+
+      <nav class="nav" aria-label="Primary">
+        <div class="container nav__inner">
+          <a class="brand notranslate" href="/">
+            <span class="brand__mark" aria-hidden="true">
+              <svg
+                viewBox="0 0 36 36"
+                width="36"
+                height="36"
+                focusable="false"
+                aria-hidden="true"
+              >
+                <defs>
+                  <linearGradient id="logo452g" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0" stop-color="#0b63f6" />
+                    <stop offset="0.55" stop-color="#3a86ff" />
+                    <stop offset="1" stop-color="#0946c4" />
+                  </linearGradient>
+                </defs>
+                <rect x="1.5" y="1.5" width="33" height="33" rx="9" fill="url(#logo452g)" />
+                <rect
+                  x="1.5"
+                  y="1.5"
+                  width="33"
+                  height="33"
+                  rx="9"
+                  fill="none"
+                  stroke="rgba(255,255,255,0.18)"
+                />
+                <text
+                  x="18"
+                  y="22.6"
+                  text-anchor="middle"
+                  font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial"
+                  font-size="14"
+                  font-weight="900"
+                  letter-spacing="-0.04em"
+                  fill="#ffffff"
+                >
+                  452
+                </text>
+              </svg>
+            </span>
+            <span class="brand__text">
+              <span class="brand__name">452</span>
+              <span class="brand__sub">Digital Co.</span>
+            </span>
+          </a>
+
+          <button
+            class="nav__toggle"
+            type="button"
+            data-nav-toggle
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span class="nav__toggle-lines" aria-hidden="true"></span>
+          </button>
+
+          <div class="nav__links" data-nav-links>
+            <ul class="nav__menu" role="list">
+              <li class="nav__item nav__item--has-menu" data-nav-item>
+                <span class="nav__service-wrap">
+                  <a class="nav__link" href="/services">Services</a>
+                  <button
+                    class="nav__link nav__link--toggle nav__dropdown-toggle"
+                    type="button"
+                    data-nav-dropdown
+                    aria-label="Open services and languages menu"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    <span class="nav__chev" aria-hidden="true">▾</span>
+                  </button>
+                </span>
+                <div class="nav__dropdown" data-nav-dropdown-menu>
+                  <div class="nav__dropdown-grid" role="menu" aria-label="Services and languages menu">
+                    <div class="nav__dropdown-col">
+                      <p class="nav__dropdown-title">Web Design &amp; Development</p>
+                      <ul class="nav__dropdown-list" role="list">
+                        <li><a class="nav__dropdown-link" href="/website-design">Web Design</a></li>
+                        <li><a class="nav__dropdown-link" href="/website-development">Web Development</a></li>
+                        <li><a class="nav__dropdown-link" href="/ecommerce-stores">E-commerce Stores</a></li>
+                      </ul>
+                    </div>
+                    <div class="nav__dropdown-col">
+                      <p class="nav__dropdown-title">Branding, Design &amp; Media</p>
+                      <ul class="nav__dropdown-list" role="list">
+                        <li><a class="nav__dropdown-link" href="/graphic-design-company">Graphic Design</a></li>
+                        <li><a class="nav__dropdown-link" href="/drone-services">Drone Services</a></li>
+                        <li><a class="nav__dropdown-link" href="/branding-identity">Branding &amp; Identity</a></li>
+                        <li><a class="nav__dropdown-link" href="/restaurant-web-design-company-omaha">Restaurant Web Design</a></li>
+                      </ul>
+                    </div>
+                    <div class="nav__dropdown-col">
+                      <p class="nav__dropdown-title">Internet Marketing &amp; SEO</p>
+                      <ul class="nav__dropdown-list" role="list">
+                        <li><a class="nav__dropdown-link" href="/google-ads">Google Ads</a></li>
+                        <li><a class="nav__dropdown-link" href="/search-engine-optimization">Search Engine Optimization (SEO)</a></li>
+                      </ul>
+                    </div>
+                    <div class="nav__dropdown-col">
+                      <p class="nav__dropdown-title">Languages</p>
+                      <ul class="nav__dropdown-list" role="list">
+                        <li><a class="nav__dropdown-link" href="/paginas-web-en-espanol-omaha">Paginas Web En Español</a></li>
+                      </ul>
+                    </div>
+                    <div class="nav__dropdown-cta">
+                      <a class="nav__dropdown-all" href="/services">All services <span aria-hidden="true">→</span></a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li><a class="nav__link" href="/work">Our Work</a></li>
+              <li><a class="nav__link" href="/about">About</a></li>
+              <li><a class="nav__link" href="/testimonials">Testimonials</a></li>
+              <li><a class="nav__link" href="/contact">Contact</a></li>
+              <li><button type="button" class="nav__link nav__link--lang notranslate" data-lang-toggle aria-pressed="false">Español</button></li>
+            </ul>
+
+            <div class="nav__right">
+              <button
+                class="theme-toggle"
+                type="button"
+                data-theme-toggle
+                aria-label="Toggle color theme"
+                aria-pressed="false"
+              >
+                <span class="theme-toggle__icon" aria-hidden="true">
+                  <svg class="theme-toggle__sun" viewBox="0 0 24 24" width="16" height="16" fill="none">
+                    <path
+                      d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M2 12h2m16 0h2M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <svg class="theme-toggle__moon" viewBox="0 0 24 24" width="16" height="16" fill="none">
+                    <path
+                      d="M21 12.8A8.5 8.5 0 0 1 11.2 3a6.8 6.8 0 1 0 9.8 9.8Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <span class="theme-toggle__text" data-theme-toggle-text>Light</span>
+              </button>
+              <a class="nav__phone" href="tel:4028043315" aria-label="Call 402-804-3315">
+                <span class="nav__phone-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="16"
+                    height="16"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    focusable="false"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M22 16.9v2a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 3.1 5.18 2 2 0 0 1 5.08 3h2a2 2 0 0 1 2 1.72c.12.86.3 1.7.54 2.5a2 2 0 0 1-.45 2.11L8.09 10.91a16 16 0 0 0 6 6l1.58-1.08a2 2 0 0 1 2.11-.45c.8.24 1.64.42 2.5.54A2 2 0 0 1 22 16.9z"
+                    />
+                  </svg>
+                </span>
+                <span class="nav__phone-text">(402) 804-3315</span>
+              </a>
+              <a class="nav__email" href="mailto:hello@452digitalco.com" aria-label="Email hello@452digitalco.com">
+                <span class="nav__phone-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false" aria-hidden="true">
+                    <rect x="2" y="4" width="20" height="16" rx="2" />
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+                  </svg>
+                </span>
+                <span class="nav__phone-text">hello@452digitalco.com</span>
+              </a>
+              <a class="btn btn--sm btn--primary notranslate" href="/contact" data-lang-cta data-label-en="GET STARTED" data-label-es="Obtener cotización">GET STARTED</a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <div class="header-nav-row" id="header-nav">
-      <div class="header-nav-inner">
-        <nav class="primary-nav" aria-label="Primary">
-          <button class="mobile-menu-toggle" aria-label="Open menu" aria-expanded="false">
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
-          <ul class="nav-list">
-            <li><a href="/" class="active" aria-current="page">Home</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="find-us.html">Find Us</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="schedule.html">2026 Pop Ups &amp; Farmer Markets</a></li>
-            <li><a href="wholesale.html">Wholesale</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <div class="header-social" aria-label="Follow Sweet Earth Delights">
-          <a href="https://www.instagram.com/sweet.earth.delights/" class="header-social__link" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">
-            <img src="images/icon-instagram.svg" alt="" width="24" height="24" decoding="async">
-          </a>
-          <a href="https://www.facebook.com/profile.php?id=61565852017735" class="header-social__link" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Facebook">
-            <img src="images/icon-facebook.svg" alt="" width="24" height="24" decoding="async">
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <main id="et-main-area">
-      <!-- Hero Slider (matches Sugar & Sage layout) -->
-      <section class="hero-slider" aria-label="Featured">
-        <div class="hero-slides">
-          <div class="hero-slide active" style="--slide-index: 0">
-            <img
-              src="images/sweet-earth-delights-2-hero.jpg"
-              alt="Sweet Earth Delights fresh baked goods"
-              width="1672"
-              height="941"
-              fetchpriority="high"
-              decoding="async"
-            >
-          </div>
-          <div class="hero-slide" style="--slide-index: 1">
-            <img
-              data-src="images/bagels-sweet-earth-2.jpg"
-              alt="Fresh bagels from Sweet Earth Delights"
-              width="1898"
-              height="829"
-              decoding="async"
-            >
-          </div>
-          <div class="hero-slide" style="--slide-index: 2">
-            <img
-              data-src="images/sweet-earth-delights-1-hero.jpg"
-              alt="Sweet Earth Delights artisan baked goods"
-              width="1672"
-              height="941"
-              decoding="async"
-            >
-          </div>
-          <div class="hero-slide" style="--slide-index: 3">
-            <img
-              data-src="images/sourdough-made-daily-in-omaha.jpg"
-              alt="Sourdough made daily in Omaha"
-              width="1920"
-              height="1280"
-              decoding="async"
-            >
-          </div>
-        </div>
-
-        <div class="hero-overlay" aria-hidden="true"></div>
-
-        <div class="hero-content">
-          <div class="hero-content-inner">
-            <h1 class="hero-headline">Savor Sourdough</h1>
-            <div class="hero-cta-group">
-              <a href="find-us.html" class="hero-btn">Find Sweet Earth Near You</a>
-              <a href="schedule.html" class="hero-btn">View Farmers Markets</a>
-              <a href="contact.html" class="hero-btn">Contact Us</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- la Madeleine four__square__grid (2×2) -->
-      <section class="four-square-grid-section" id="about">
-        <div class="content__wrapper grid__wrap">
-          <div class="four-square-grid">
-            <div class="four-square-grid__toprow">
-              <div class="four-square-grid__topleft">
-                <p class="tile-eyebrow">Our Story</p>
-                <h2 class="tile-heading">Handcrafted Sourdough</h2>
-                <a href="#pastries" class="tile-cta">Shop Now</a>
-              </div>
-              <div class="four-square-grid__topright" style="background-image: url('images/sourdough-bread-in-bellevue-ne-fresh.jpg');" role="img" aria-label="Fresh sourdough bread in Bellevue, NE"></div>
-            </div>
-
-            <div class="four-square-grid__bottomrow">
-              <div class="four-square-grid__bottomleft">
-                <img src="images/sweet-earth-delights-2-hero.jpg" alt="Fresh baked goods from Sweet Earth Delights" width="1672" height="941" loading="lazy" decoding="async">
-              </div>
-              <div class="four-square-grid__bottomright">
-                <p class="tile-eyebrow">About Us</p>
-                <h2 class="tile-heading tile-heading--wide">Sweet Earth Delights</h2>
-                <p class="tile-copy">
-                  Every loaf, bagel, English muffin, cookie, cinnamon roll, and bun is made by hand in small
-                  batches using simple, high-quality ingredients and traditional baking methods. I started Sweet
-                  Earth Delights because I wanted to bring handcrafted, naturally fermented sourdough to our
-                  community, and that is still what drives me every week.
-                </p>
-                <div class="tile-actions">
-                  <a href="#pastries" class="tile-cta">Shop Now</a>
-                  <a href="about.html" class="tile-link">Learn More <span class="tile-link__icon" aria-hidden="true">→</span></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <div class="section-divider section-divider--wave-down" aria-hidden="true"></div>
-
-      <!-- Our Products (inspired by Magnolia Bakery) -->
-      <section class="products-section" id="shop" aria-labelledby="products-title">
-        <div class="products-section__container">
-          <div class="products-section__intro">
-            <h2 class="products-section__title" id="products-title">Our Products</h2>
-            <p class="products-section__lead">
-              Sweet Earth Delights crafts artisan baked goods the old-fashioned way: from scratch,
-              in small batches, and with wholesome ingredients from our home kitchen.
-            </p>
-          </div>
-
-          <div class="products-section__grid">
-            <a href="shop.html" class="product-card">
-              <div class="product-card__image">
-                <img src="images/sweet-earth-delights-1-hero.jpg" alt="Rustic sourdough loaves" width="1672" height="941" loading="lazy" decoding="async">
-              </div>
-              <h3 class="product-card__name">Sourdough Loaves</h3>
-            </a>
-            <a href="shop.html" class="product-card">
-              <div class="product-card__image">
-                <img src="images/sweet-earth-bagels.jpg" alt="Fresh bagels" width="532" height="800" loading="lazy" decoding="async">
-              </div>
-              <h3 class="product-card__name">Bagels</h3>
-            </a>
-            <a href="shop.html" class="product-card">
-              <div class="product-card__image">
-                <img src="images/english-muffins-sweet-earth.jpg" alt="English muffins and seasonal treats" width="532" height="800" loading="lazy" decoding="async">
-              </div>
-              <h3 class="product-card__name">Cookies &amp; Treats</h3>
-            </a>
-          </div>
-
-          <div class="products-section__actions">
-            <a href="shop.html" class="products-section__cta" aria-label="View all products">View All Products</a>
-          </div>
-        </div>
-
-      </section>
-
-      <!-- Find Us -->
-      <section class="markets-section" id="find-us" aria-labelledby="find-us-heading">
-        <div class="markets-section__container">
-          <header class="markets-section__intro">
-            <p class="markets-section__eyebrow" data-markets-reveal>Find Us</p>
-            <h2 class="markets-section__title" id="find-us-heading" data-markets-reveal>How We Reach You</h2>
-            <p class="markets-section__lead" data-markets-reveal>
-              Sweet Earth Delights is a home-based bakery that comes to you. Through farmers markets,
-              seasonal pop-ups, scheduled pickup from our kitchen, and select local retail partners, we share
-              small-batch sourdough, pastries, and treats baked fresh from scratch.
-            </p>
-          </header>
-
-          <div class="markets-section__grid">
-            <div class="schedule-card promo-card" data-markets-reveal>
-              <h3 class="schedule-card__title">Summer Farmers Markets</h3>
-              <p class="promo-card__text">
-                When market season arrives, we bring a rotating selection of sourdough loaves, bagels,
-                pastries, cookies, and seasonal favorites &mdash; all baked fresh for the day and ready
-                to take home.
-              </p>
-            </div>
-            <div class="schedule-card promo-card" data-markets-reveal>
-              <h3 class="schedule-card__title">Pop-Ups &amp; Events</h3>
-              <p class="promo-card__text">
-                We set up at community events, holiday markets, and special bake days throughout the year.
-                Pop-ups are a great way to try limited-run items and see what&apos;s new from our home kitchen.
-              </p>
-            </div>
-            <div class="schedule-card promo-card" id="find-near-you" data-markets-reveal>
-              <h3 class="schedule-card__title">Local Retail</h3>
-              <p class="promo-card__text">
-                Select shops and markets across the Omaha metro area carry Sweet Earth Delights bread on
-                their shelves. Grab a fresh loaf from a retail partner near you.
-              </p>
-            </div>
-          </div>
-
-          <footer class="markets-section__footer">
-            <p class="markets-section__note">For dates, times, and locations, visit our 2026 schedule page, find a retail partner near you, or reach out with questions.</p>
-
-            <div class="markets-section__actions">
-              <a href="schedule.html" class="markets-section__cta">2026 Pop Ups &amp; Farmer Markets</a>
-              <a href="find-us.html" class="markets-section__cta markets-section__cta--outline">Find Near You</a>
-              <a href="contact.html" class="markets-section__cta markets-section__cta--outline">Contact Us</a>
-            </div>
-
-          </footer>
-        </div>
-      </section>
-
-      <!-- la Madeleine headline-text-images-banner -->
-      <section class="headline-text-images-banner text--light" aria-labelledby="find-us-title">
-        <div class="headline-text-images-banner__cover">
-          <img
-            class="headline-text-images-banner__cover-image"
-            src="images/wood-texture.jpg"
-            alt=""
-            width="1536"
-            height="1024"
-            loading="lazy"
-            decoding="async"
+    <main id="main">
+      <section class="px-vhero" aria-labelledby="px-vhero-title">
+        <div class="px-vhero__media" aria-hidden="true">
+          <video
+            class="px-vhero__video is-pending"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
           >
-          <div class="headline-text-images-banner__cover-dim" aria-hidden="true"></div>
-          <div class="headline-text-images-banner__inner">
-            <h2 class="headline-text-images-banner__eyebrow">Find Sweet Earth Delights</h2>
-            <h3 class="headline-text-images-banner__title" id="find-us-title">Fresh Baked Goods, Made with Love</h3>
-            <p class="headline-text-images-banner__lead">
-              Artisan breads, pastries, and seasonal treats baked fresh from our home kitchen.
-            </p>
-            <p class="headline-text-images-banner__note">
-              <em>We meet our neighbors at farmers markets and pop-ups throughout the season.</em>
-            </p>
-            <p class="headline-text-images-banner__note">
-              <em>Follow us on social media for announcements and what&apos;s fresh from the oven.</em>
-            </p>
-            <div class="headline-text-images-banner__spacer" aria-hidden="true"></div>
-            <div class="headline-text-images-banner__actions">
-              <a href="schedule.html" class="headline-text-images-banner__btn">View 2026 Schedule</a>
-            </div>
+            <source src="videos/452-graphic-design-omaha.mp4" type="video/mp4" />
+          </video>
+          <div class="px-vhero__overlay"></div>
+        </div>
+
+        <div class="px-vhero__inner">
+          <h1 class="px-vhero__title" id="px-vhero-title">Create your perfect website, your way</h1>
+          <p class="px-vhero__lead">
+            <span class="px-vhero__lead-name">452 Digital Co.</span>
+            — A family-owned web design company based in Papillion, NE, building fast, ownable websites for businesses across Omaha
+          </p>
+          <div class="px-vhero__actions">
+            <a class="px-vhero__btn px-vhero__btn--primary" href="/services">Design services</a>
+            <a class="px-vhero__btn px-vhero__btn--accent" href="/contact">Start a consultation</a>
           </div>
-          <figure class="headline-text-images-banner__figure">
-            <img
-              class="headline-text-images-banner__food-image"
-              src="images/sweet-earth-setup.png"
-              alt="Sweet Earth Delights bakery setup with bagels and cookies"
-              width="1600"
-              height="640"
-              loading="lazy"
-              decoding="async"
-            >
-          </figure>
         </div>
       </section>
 
-      <!-- Order Now -->
-      <section class="order-section" id="order">
-        <div class="container order-grid">
-          <div class="order-text">
-            <h1>Order Now</h1>
-            <p class="order-subtitle">Fresh from our home kitchen to you.</p>
-            <div class="divider"></div>
-            <h6>How to order from Sweet Earth Delights:</h6>
-            <ul class="order-list">
-              <li>Fill out our order form — we&apos;ll email you back with confirmation and how to submit payment</li>
-              <li>Pick up your order at a scheduled time</li>
-              <li>Catch us at a farmers market or pop-up when we&apos;re out</li>
-              <li>Call ahead for larger orders and weekend specials</li>
+      <section class="px-stack" aria-label="Tools and platforms we build with">
+        <p class="px-stack__title">web design · seo · branding &amp; identity</p>
+        <div class="px-stack__viewport">
+          <div class="px-stack__track">
+            <ul class="px-stack__list" role="list">
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/wordpress/21759b" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>WordPress</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/shopify/96bf48" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Shopify</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/stripe/635bff" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Stripe</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/cloudflare/f38020" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Cloudflare</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/meta/0866ff" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Meta</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/google/4285f4" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Google</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/googleanalytics/e37400" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Google Analytics</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/googlesearchconsole/458cf5" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Search Console</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/yoast/a4286a" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Yoast</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="images/acf-icon-2.svg" width="28" height="28" alt="" loading="lazy" decoding="async" />
+                <span>Advanced Custom Fields</span>
+              </li>
             </ul>
-            <div class="order-buttons">
-              <a href="contact.html" class="order-btn">Order Form</a>
-              <a href="schedule.html" class="order-btn order-btn--outline">View 2026 Schedule</a>
-            </div>
-            <p class="order-note">Planning a larger order? Visit our <a href="wholesale.html" class="text-link">Wholesale</a> page or <a href="contact.html" class="text-link">contact us</a> directly.</p>
+            <ul class="px-stack__list" role="presentation" aria-hidden="true">
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/wordpress/21759b" width="28" height="28" alt="" decoding="async" />
+                <span>WordPress</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/shopify/96bf48" width="28" height="28" alt="" decoding="async" />
+                <span>Shopify</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/stripe/635bff" width="28" height="28" alt="" decoding="async" />
+                <span>Stripe</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/cloudflare/f38020" width="28" height="28" alt="" decoding="async" />
+                <span>Cloudflare</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/meta/0866ff" width="28" height="28" alt="" decoding="async" />
+                <span>Meta</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/google/4285f4" width="28" height="28" alt="" decoding="async" />
+                <span>Google</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/googleanalytics/e37400" width="28" height="28" alt="" decoding="async" />
+                <span>Google Analytics</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/googlesearchconsole/458cf5" width="28" height="28" alt="" decoding="async" />
+                <span>Search Console</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="https://cdn.simpleicons.org/yoast/a4286a" width="28" height="28" alt="" decoding="async" />
+                <span>Yoast</span>
+              </li>
+              <li class="px-stack__item">
+                <img class="px-stack__icon" src="images/acf-icon-2.svg" width="28" height="28" alt="" decoding="async" />
+                <span>Advanced Custom Fields</span>
+              </li>
+            </ul>
           </div>
-          <div class="order-phone">
-            <div class="phone-mockup" aria-hidden="true">
-              <div class="phone-screen">
-                <img src="images/logo.svg" alt="" width="120" height="94">
-                <p>Order Now</p>
+        </div>
+      </section>
+
+      <section class="rs-paths" aria-label="Ways we can help">
+        <div class="rs-paths__inner">
+          <div class="rs-hero__grid">
+            <article class="rs-card">
+              <a class="rs-card__media" href="/website-design">
+                <img
+                  src="images/working-with-client-2.jpg"
+                  alt="Custom web design for Omaha businesses"
+                  width="800"
+                  height="700"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <h2 class="rs-card__title">
+                <a href="/website-design">Get a custom website built for your business</a>
+              </h2>
+              <p class="rs-card__tag">FAST, LOCAL, DONE RIGHT</p>
+              <a class="rs-card__btn" href="/contact">START A PROJECT</a>
+            </article>
+
+            <article class="rs-card">
+              <a class="rs-card__media" href="/work">
+                <img
+                  src="images/4c-omaha-1-design.jpg"
+                  alt="Website redesign and client work examples"
+                  width="800"
+                  height="700"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <h2 class="rs-card__title">
+                <a href="/work">See real websites we’ve built for local brands</a>
+              </h2>
+              <p class="rs-card__tag">BEST DESIGN, PROVEN RESULTS</p>
+              <a class="rs-card__btn" href="/work">VIEW OUR WORK</a>
+            </article>
+
+            <article class="rs-card">
+              <a class="rs-card__media" href="/search-engine-optimization">
+                <img
+                  src="images/remington-painting.jpg"
+                  alt="Local business website built to bring in more quote requests"
+                  width="800"
+                  height="700"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </a>
+              <h2 class="rs-card__title">
+                <a href="/search-engine-optimization">Get more local leads from Google search</a>
+              </h2>
+              <p class="rs-card__tag">GET FOUND. GET CALLS.</p>
+              <a class="rs-card__btn" href="/contact">GET MORE LEADS</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-help" id="services" aria-labelledby="px-help-title" data-px-help>
+        <div class="px-help__inner">
+          <p class="px-help__eyebrow">
+            <span class="px-help__eyebrow-line" aria-hidden="true"></span>
+            How we can help
+          </p>
+
+          <div class="px-help__top">
+            <h2 class="px-help__title" id="px-help-title">Website design your business can count on.</h2>
+            <div class="px-help__controls">
+              <button class="px-help__btn" type="button" data-px-help-prev>
+                <span aria-hidden="true">←</span> Back
+              </button>
+              <button class="px-help__btn" type="button" data-px-help-next>
+                Next <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="px-help__stage">
+            <div class="px-help__media" aria-hidden="true">
+              <img
+                class="px-help__image is-active"
+                src="images/4c-construction-website.jpg"
+                alt=""
+                width="764"
+                height="550"
+                data-px-help-image
+               decoding="async" />
+              <img
+                class="px-help__image"
+                src="images/seo-rankings.jpg"
+                alt=""
+                width="764"
+                height="550"
+                loading="lazy"
+                decoding="async"
+                data-px-help-image
+              />
+              <img
+                class="px-help__image"
+                src="images/wordpress-web-design-2-omaha.jpg"
+                alt=""
+                width="764"
+                height="550"
+                loading="lazy"
+                decoding="async"
+                data-px-help-image
+              />
+              <img
+                class="px-help__image"
+                src="images/hello-burr-paw.jpg"
+                alt=""
+                width="764"
+                height="550"
+                loading="lazy"
+                decoding="async"
+                data-px-help-image
+              />
+              <img
+                class="px-help__image px-help__image--bottom"
+                src="images/working-with-client-2.jpg"
+                alt=""
+                width="764"
+                height="550"
+                loading="lazy"
+                decoding="async"
+                data-px-help-image
+              />
+            </div>
+
+            <div class="px-help__copy">
+              <div class="px-help__panels" data-px-help-panels>
+                <article class="px-help__panel is-active" data-px-help-panel>
+                  <h3>Responsive Design</h3>
+                  <p>
+                    Every site we build scales cleanly from phone to desktop — because most of your customers are already shopping and searching on mobile.
+                  </p>
+                  <p>
+                    Fast load times, clear layouts, and buttons that actually work on a thumb make the difference between a bounce and a lead. When the experience feels effortless, people trust your brand more — and they stick around longer.
+                  </p>
+                  <a class="px-help__cta" href="/website-design">Web design services</a>
+                </article>
+
+                <article class="px-help__panel" data-px-help-panel hidden>
+                  <h3>We Haven’t Forgotten About SEO</h3>
+                  <p>
+                    A beautiful website still needs to get found. We build local SEO into the foundation — structure, content, and Google Business Profile — so Omaha-area searches can actually reach you.
+                  </p>
+                  <p>
+                    From keyword research to on-page setup and tracking, we keep the language clear and the goals practical: more visibility, more calls, and more customers walking through your digital door.
+                  </p>
+                  <a class="px-help__cta" href="/search-engine-optimization">Boost visibility</a>
+                </article>
+
+                <article class="px-help__panel" data-px-help-panel hidden>
+                  <h3>Custom Build or Your Favorite CMS</h3>
+                  <p>
+                    Some projects need a fully custom build. Others thrive on WordPress or WooCommerce. We’ll help you pick the right path — then design and develop it so it looks sharp and stays easy to update.
+                  </p>
+                  <p>
+                    You get a site you can actually manage, with the flexibility to grow: new pages, products, forms, and campaigns without starting from scratch every time.
+                  </p>
+                  <a class="px-help__cta" href="/website-development">Choose your stack</a>
+                </article>
+
+                <article class="px-help__panel" data-px-help-panel hidden>
+                  <h3>E-Commerce or Corporate — We’ve Got You</h3>
+                  <p>
+                    Whether you’re selling products online or presenting a service business, the goal is the same: a clear path from first visit to conversion.
+                  </p>
+                  <p>
+                    We set up secure checkouts, simple product pages, and navigation that helps people find what they need — then layer in SEO so your store or site can compete beyond word of mouth.
+                  </p>
+                  <a class="px-help__cta" href="/ecommerce-stores">Build to sell</a>
+                </article>
+
+                <article class="px-help__panel" data-px-help-panel hidden>
+                  <h3>Designed for Real Users</h3>
+                  <p>
+                    Pretty isn’t enough. We design around how people actually move through a site — what they skim, what they click, and where they get stuck.
+                  </p>
+                  <p>
+                    Clear CTAs, sensible navigation, and content that answers questions up front guide visitors toward the next step: a call, a form, or a purchase. Less friction, more results.
+                  </p>
+                  <a class="px-help__cta" href="/contact">Improve your experience</a>
+                </article>
+              </div>
+
+              <div class="px-help__progress">
+                <div class="px-help__progress-track" aria-hidden="true">
+                  <div class="px-help__progress-bar" data-px-help-bar></div>
+                </div>
+                <p class="px-help__count" data-px-help-count aria-live="polite">1 / 5</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-
-      <!-- Photo Grid -->
-      <section class="photo-grid-section" id="pastries">
-        <div class="photo-grid">
-          <a href="#" class="photo-grid-item"><img src="images/sourdough-bread-2-omaha.jpg" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-4.jpg" alt="Cookies from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delight-4-omaha.png" alt="Fresh baked goods from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sourdoug-bread-3-omaha.png" alt="Sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/sweet-earth-delights-5.jpg" alt="Seasonal treats" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item"><img src="images/true-sourdough-bread-omaha.jpg" alt="True sourdough bread from Sweet Earth Delights" loading="lazy" decoding="async"></a>
-          <a href="#" class="photo-grid-item wide"><img src="images/sweet-earth-bread-23.jpg" alt="Bakery counter" loading="lazy" decoding="async"></a>
-        </div>
-      </section>
-
-
-      <!-- Newsletter Sign Up -->
-      <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
-        <div class="newsletter-section__container">
-          <header class="newsletter-section__intro">
-            <p class="newsletter-section__eyebrow">Stay in Touch</p>
-            <h2 class="newsletter-section__title" id="newsletter-title">Join Our Newsletter</h2>
-            <p class="newsletter-section__lead">
-              Be the first to know about farmers market dates, pop-up locations, seasonal menus,
-              and special offers from our home kitchen.
+      <section class="px-intro" aria-labelledby="px-intro-title">
+        <div class="px-intro__inner">
+          <div class="px-intro__copy">
+            <h2 class="px-intro__title" id="px-intro-title">Web design company in Papillion &amp; Omaha</h2>
+            <hr class="px-intro__rule" />
+            <p class="px-intro__text">
+              We are a family-owned web development company in
+              <a href="/papillion-web-design-company">Papillion</a>
+              that builds stunning websites made for performance and results.
+              We sit down, talk through your goals and what you’re trying to accomplish, then build a plan custom to you.
+              That might mean WordPress, Shopify, WooCommerce, or another stack that fits, plus SEO, photography, drone, and branding when your project needs them.
             </p>
-          </header>
+            <p class="px-intro__text">
+              Over 10+ years we’ve been privileged to work with local small businesses and larger brands across Nebraska, including
+              <a href="https://bellinofireworks.com" target="_blank" rel="noopener noreferrer">Bellino Fireworks</a>,
+              <a href="https://lincolntent.com" target="_blank" rel="noopener noreferrer">Lincoln Tent</a>,
+              and
+              <a href="https://luxamericangrill.com" target="_blank" rel="noopener noreferrer">Lux American Grill</a>.
+              See more on our
+              <a href="/work">work page</a>.
+            </p>
+            <p class="px-intro__text">
+              You own the files. No monthly website rental. Serving
+              <a href="/omaha-web-design-company">Omaha</a>,
+              Sarpy County, Lincoln, and nearby Nebraska communities.
+            </p>
+          </div>
 
-          <form class="newsletter-form" action="#" method="post">
-            <label class="newsletter-form__label" for="newsletter-email">Email address</label>
-            <div class="newsletter-form__fields">
-              <input
-                type="email"
-                id="newsletter-email"
-                name="email"
-                class="newsletter-form__input"
-                placeholder="Your email address"
-                required
-                autocomplete="email"
-              >
-              <button type="submit" class="newsletter-form__submit">Subscribe</button>
+          <form class="px-form contact-form" data-ajax="json" action="contact.php" method="post" novalidate>
+            <p class="px-form__title">Start a project</p>
+            <div class="px-form__fields">
+              <div class="field">
+                <label class="field__label" for="home-name">Full Name</label>
+                <input class="field__input" id="home-name" name="name" placeholder="Full Name*" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label class="field__label" for="home-business">Company</label>
+                <input class="field__input" id="home-business" name="business" placeholder="Company" autocomplete="organization" />
+              </div>
+              <div class="field">
+                <label class="field__label" for="home-email">Email</label>
+                <input class="field__input" id="home-email" name="email" type="email" placeholder="Email Address*" autocomplete="email" required />
+              </div>
+              <div class="field">
+                <label class="field__label" for="home-phone">Phone</label>
+                <input class="field__input" id="home-phone" name="phone" type="tel" placeholder="Phone Number*" autocomplete="tel" required />
+              </div>
+              <div class="field field--full">
+                <label class="field__label" for="home-details">Message</label>
+                <textarea class="field__input field__textarea" id="home-details" name="details" placeholder="Message" rows="3"></textarea>
+              </div>
             </div>
+            <input type="hidden" name="help" value="New website" />
+            <input class="px-form__trap" type="text" name="bot_check" tabindex="-1" autocomplete="off" />
+            <div class="px-form__actions">
+              <button class="btn btn--primary" type="submit">SUBMIT</button>
+            </div>
+            <div class="form-status" aria-live="polite" aria-atomic="true" hidden></div>
           </form>
         </div>
       </section>
+
+      <section class="px-process" id="process" aria-labelledby="px-process-title">
+        <div class="px-process__inner">
+          <header class="px-process__head">
+            <p class="px-process__eyebrow">How we work</p>
+            <h2 class="px-process__title" id="px-process-title">Our process</h2>
+            <p class="px-process__lead">
+              A clear path from first call to launch — so you always know what’s next.
+            </p>
+          </header>
+
+          <ol class="px-process__list" role="list" data-px-process>
+            <li class="px-process__step">
+              <span class="px-process__num" aria-hidden="true">01</span>
+              <h3 class="px-process__name">Consult</h3>
+              <p class="px-process__text">
+                A 30–40 minute conversation to learn your business, lock in a clear direction, and put together a plan and quote.
+              </p>
+            </li>
+            <li class="px-process__step">
+              <span class="px-process__num" aria-hidden="true">02</span>
+              <h3 class="px-process__name">Design &amp; Build</h3>
+              <p class="px-process__text">
+                Layouts, visuals, content, SEO structure, and technical setup — revised with you until it’s ready to perform.
+              </p>
+            </li>
+            <li class="px-process__step">
+              <span class="px-process__num" aria-hidden="true">03</span>
+              <h3 class="px-process__name">Launch</h3>
+              <p class="px-process__text">
+                Final review, go live, and analytics so you can see what’s working over time.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="px-inspire" aria-labelledby="px-inspire-title">
+        <div class="px-inspire__head">
+          <h2 class="px-inspire__title" id="px-inspire-title">Get website inspiration</h2>
+          <a class="px-inspire__btn" href="/work">View portfolio</a>
+        </div>
+        <div class="px-inspire__gallery">
+          <a class="px-inspire__shot" href="https://bellinofireworks.com" target="_blank" rel="noopener noreferrer">
+            <span class="px-inspire__shot-media">
+              <img
+                src="images/bellino-firewokrs-full-website.jpg"
+                alt="Bellino Fireworks website designed by 452 Digital Co."
+                width="800"
+                height="1100"
+                loading="lazy"
+                decoding="async"
+              />
+            </span>
+            <span class="px-inspire__shot-label">
+              <span class="px-inspire__shot-name">Bellino Fireworks</span>
+              <span class="px-inspire__shot-desc">Multi-state fireworks retailer</span>
+            </span>
+          </a>
+          <a class="px-inspire__shot" href="https://lincolntent.com" target="_blank" rel="noopener noreferrer">
+            <span class="px-inspire__shot-media">
+              <img
+                src="images/lincoln-tent-in-full.jpg"
+                alt="Lincoln Tent website redesign for a Lincoln, Nebraska event rental company"
+                width="800"
+                height="1100"
+                loading="lazy"
+                decoding="async"
+              />
+            </span>
+            <span class="px-inspire__shot-label">
+              <span class="px-inspire__shot-name">Lincoln Tent</span>
+              <span class="px-inspire__shot-desc">Event rentals in Lincoln, NE</span>
+            </span>
+          </a>
+          <a class="px-inspire__shot" href="https://luxamericangrill.com" target="_blank" rel="noopener noreferrer">
+            <span class="px-inspire__shot-media">
+              <img
+                src="images/lux-american-grill-full-website.jpg"
+                alt="Lux American Grill restaurant website in Omaha"
+                width="800"
+                height="1100"
+                loading="lazy"
+                decoding="async"
+              />
+            </span>
+            <span class="px-inspire__shot-label">
+              <span class="px-inspire__shot-name">Lux American Grill</span>
+              <span class="px-inspire__shot-desc">Restaurant in Omaha</span>
+            </span>
+          </a>
+          <a class="px-feature-more__btn px-inspire__more" href="/work">View full portfolio →</a>
+        </div>
+      </section>
+
+      <section class="px-feature" aria-labelledby="feature-bellino" data-px-feature>
+        <div class="px-feature__inner">
+          <a class="px-feature__media" href="https://bellinofireworks.com" target="_blank" rel="noopener noreferrer" data-px-feature-media>
+            <img src="images/bellino-fireworks-home-page.jpg" alt="Bellino Fireworks website" width="1200" height="1000" loading="lazy" decoding="async" />
+          </a>
+          <div class="px-feature__body" data-px-feature-body>
+            <p class="px-feature__eyebrow">Featured Case Study</p>
+            <h2 class="px-feature__title" id="feature-bellino">Bellino Fireworks</h2>
+            <p class="px-feature__text">
+              A multi-state fireworks retailer with 300+ Google profiles and active ad campaigns.
+              We rebuilt the site for performance, local search, and easier updates across locations.
+            </p>
+            <a class="px-feature__link" href="https://bellinofireworks.com" target="_blank" rel="noopener noreferrer">Visit live site →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-feature px-feature--flip" aria-labelledby="feature-lux" data-px-feature>
+        <div class="px-feature__inner">
+          <div class="px-feature__media px-feature__media--video" data-px-feature-video data-px-feature-media>
+            <video
+              src="videos/lux-landing.mp4"
+              width="1200"
+              height="1000"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="Lux American Grill website"
+              data-px-feature-video-el
+            ></video>
+            <div class="px-feature__overlay" aria-hidden="true"></div>
+            <div class="px-feature__controls">
+              <button type="button" class="px-feature__ctrl" data-px-feature-play aria-label="Pause video">
+                <span class="px-feature__ctrl-icon px-feature__ctrl-icon--pause" aria-hidden="true"></span>
+              </button>
+              <button type="button" class="px-feature__ctrl" data-px-feature-mute aria-label="Unmute video">
+                <span class="px-feature__ctrl-icon px-feature__ctrl-icon--muted" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+          <div class="px-feature__body" data-px-feature-body>
+            <p class="px-feature__eyebrow">Featured Case Study</p>
+            <h2 class="px-feature__title" id="feature-lux">Lux American Grill</h2>
+            <p class="px-feature__text">
+              An Omaha restaurant needed a site that keeps pace with seasonal menus and social.
+              We delivered the website, ongoing menu updates, and social support built around the brand.
+            </p>
+            <a class="px-feature__link" href="https://luxamericangrill.com" target="_blank" rel="noopener noreferrer">Visit live site →</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-igram" aria-labelledby="px-igram-title">
+        <div class="px-igram__inner">
+          <p class="px-igram__tag" aria-hidden="true">#WEBDESIGN</p>
+          <div class="px-igram__head">
+            <div class="px-igram__profile">
+              <img
+                class="px-igram__avatar"
+                src="images/graphic-design-in-omaha-logo.png"
+                alt=""
+                width="56"
+                height="56"
+                loading="lazy"
+                decoding="async"
+              />
+              <div class="px-igram__meta">
+                <p class="px-igram__handle" id="px-igram-title">@452.digitalco</p>
+                <p class="px-igram__note">Results-driven Omaha web designers.</p>
+              </div>
+            </div>
+            <div class="px-igram__actions">
+              <a
+                class="px-igram__follow"
+                href="https://www.facebook.com/452.digital"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="px-igram__ig" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                  <path
+                    fill="currentColor"
+                    d="M14 8.2h2.2V5h-2.3c-2.7 0-4.4 1.6-4.4 4.4v1.8H7.5V14h2V21h3.2v-7h2.2l.4-2.8h-2.6V9.7c0-.8.2-1.5 1.3-1.5z"
+                  />
+                </svg>
+                Like us on Facebook
+              </a>
+              <a
+                class="px-igram__follow"
+                href="https://www.instagram.com/452.digitalco/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="px-igram__ig" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                  <rect x="2" y="2" width="20" height="20" rx="5" fill="none" stroke="currentColor" stroke-width="1.75" />
+                  <circle cx="12" cy="12" r="4.25" fill="none" stroke="currentColor" stroke-width="1.75" />
+                  <circle cx="17.5" cy="6.5" r="1.15" fill="currentColor" />
+                </svg>
+                Follow on Instagram
+              </a>
+            </div>
+          </div>
+
+          <div class="px-igram__grid" role="list">
+            <a class="px-igram__shot" role="listitem" href="https://www.instagram.com/452.digitalco/" target="_blank" rel="noopener noreferrer">
+              <img src="images/omaha-ai-conference-thumb.jpg" alt="Omaha AI Conference preview" width="675" height="900" loading="lazy" decoding="async" />
+              <span class="px-igram__shot-overlay" aria-hidden="true"></span>
+            </a>
+            <a class="px-igram__shot" role="listitem" href="https://www.instagram.com/452.digitalco/" target="_blank" rel="noopener noreferrer">
+              <img src="images/drone-services.jpg" alt="Drone services preview" width="600" height="600" loading="lazy" decoding="async" />
+              <span class="px-igram__shot-overlay" aria-hidden="true"></span>
+            </a>
+            <a class="px-igram__shot" role="listitem" href="https://www.instagram.com/452.digitalco/" target="_blank" rel="noopener noreferrer">
+              <img src="images/sorias-and-sons-landscaping-in-full.jpg" alt="Sorias &amp; Sons Landscaping website preview" width="600" height="600" loading="lazy" decoding="async" />
+              <span class="px-igram__shot-overlay" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="px-cta" aria-label="Start a project">
+        <div class="px-cta__inner">
+          <div>
+            <p class="px-cta__eyebrow">Ready when you are</p>
+            <h2 class="px-cta__title">Let’s work together</h2>
+            <p class="px-cta__text">
+              We’re Omaha web designers dedicated to real customer service. Call
+              <a href="tel:4028043315">(402) 804-3315</a>
+              or send a message. We’d love to hear what you’re building.
+            </p>
+          </div>
+          <a class="btn btn--primary" href="/contact">GET IN TOUCH</a>
+        </div>
+      </section>
+
+      <section class="px-clients" aria-labelledby="px-clients-title">
+        <div class="px-clients__inner">
+          <p class="px-clients__eyebrow">Proud to work with our</p>
+          <h2 class="px-clients__title" id="px-clients-title">Amazing Clients</h2>
+        </div>
+
+        <div class="px-clients__marquee" aria-label="Client logos">
+          <div class="px-clients__track px-clients__track--left">
+            <ul class="px-clients__set" role="list">
+              <li class="px-clients__item px-clients__item--bellino">
+                <a href="https://bellinofireworks.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/bellino-fireworks-gray.svg" alt="Bellino Fireworks — client of 452 Digital Co." width="140" height="120" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--lincoln">
+                <a href="https://lincolntent.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/lincoln-tent-gray.png" alt="Lincoln Tent — Lincoln, Nebraska client of 452 Digital Co." width="180" height="90" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--mark"><img src="images/clients/logo-mark-gray.svg" alt="Client logo" width="110" height="110" decoding="async" loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--lux">
+                <a href="https://luxamericangrill.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/lux-american-grill-gray.png" alt="Lux American Grill — Omaha restaurant client of 452 Digital Co." width="280" height="48" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--rowem">
+                <a href="https://rowemproducts.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/ROWEM-01-gray.svg" alt="ROWEM — client of 452 Digital Co." width="220" height="88" decoding="async" loading="lazy" />
+                </a>
+              </li>
+            </ul>
+            <ul class="px-clients__set" role="presentation" aria-hidden="true">
+              <li class="px-clients__item px-clients__item--bellino" aria-hidden="true"><img src="images/clients/bellino-fireworks-gray.svg" alt="" width="140" height="120" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--lincoln" aria-hidden="true"><img src="images/clients/lincoln-tent-gray.png" alt="" width="180" height="90" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--mark" aria-hidden="true"><img src="images/clients/logo-mark-gray.svg" alt="" width="110" height="110" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--lux" aria-hidden="true"><img src="images/clients/lux-american-grill-gray.png" alt="" width="280" height="48" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--rowem" aria-hidden="true"><img src="images/clients/ROWEM-01-gray.svg" alt="" width="220" height="88" decoding="async"  loading="lazy" /></li>
+            </ul>
+          </div>
+
+          <div class="px-clients__track px-clients__track--right">
+            <ul class="px-clients__set" role="list">
+              <li class="px-clients__item px-clients__item--chilenas">
+                <a href="https://laschilenas.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/las-chilenas-gray.svg" alt="Las Chilenas — La Vista client of 452 Digital Co." width="110" height="110" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--remington">
+                <a href="https://remingtonpainting.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/remington-painting-gray.png" alt="Remington Painting — client of 452 Digital Co." width="130" height="100" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--sorias">
+                <a href="https://soriasandsonslandscaping.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/sorias-and-sons-gray.svg" alt="Sorias and Sons Landscaping — Omaha client of 452 Digital Co." width="280" height="110" decoding="async" loading="lazy" />
+                </a>
+              </li>
+              <li class="px-clients__item px-clients__item--tikal">
+                <a href="https://tikalmarket-ne.com" target="_blank" rel="noopener noreferrer">
+                  <img src="images/clients/el-tikal-market-gray.png" alt="El Tikal Market — client of 452 Digital Co." width="200" height="60" decoding="async" loading="lazy" />
+                </a>
+              </li>
+            </ul>
+            <ul class="px-clients__set" role="presentation" aria-hidden="true">
+              <li class="px-clients__item px-clients__item--chilenas" aria-hidden="true"><img src="images/clients/las-chilenas-gray.svg" alt="" width="110" height="110" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--remington" aria-hidden="true"><img src="images/clients/remington-painting-gray.png" alt="" width="130" height="100" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--sorias" aria-hidden="true"><img src="images/clients/sorias-and-sons-gray.svg" alt="" width="280" height="110" decoding="async"  loading="lazy" /></li>
+              <li class="px-clients__item px-clients__item--tikal" aria-hidden="true"><img src="images/clients/el-tikal-market-gray.png" alt="" width="200" height="60" decoding="async"  loading="lazy" /></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="px-faq" id="faq" aria-labelledby="home-faq-title">
+        <div class="px-faq__inner">
+          <p class="px-faq__eyebrow">FAQ</p>
+          <h2 class="px-faq__title" id="home-faq-title">Web design questions for Omaha &amp; Papillion</h2>
+          <div class="px-faq__list">
+            <details>
+              <summary>Do you build websites for Omaha and Papillion businesses?</summary>
+              <p>
+                Yes. We’re a family-owned Papillion studio serving Omaha, Sarpy County, Lincoln, and nearby Nebraska communities with custom sites you own.
+              </p>
+            </details>
+            <details>
+              <summary>Which client websites can I see live?</summary>
+              <p>
+                A few examples are Bellino Fireworks, Lincoln Tent, and Lux American Grill. You can browse more on our
+                <a href="/work">work page</a>.
+              </p>
+            </details>
+            <details>
+              <summary>Do you charge monthly website rental fees?</summary>
+              <p>No. Your website is a one-time build and you own the files. Ongoing SEO, content, or design support is optional when it helps your goals.</p>
+            </details>
+            <details>
+              <summary>Do you offer local SEO with the website?</summary>
+              <p>
+                Yes. We can structure pages for local search and set up tracking so you know what’s working.
+                <a href="/contact">Get in touch</a>
+                if you want a clear next step.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer" id="footer" aria-label="Site footer">
+        <div class="container site-footer__top">
+          <p class="site-footer__label">
+            <span class="site-footer__label-dot" aria-hidden="true"></span>
+            Quick links
+          </p>
+
+          <div class="site-footer__grid" role="navigation" aria-label="Locations, services, and company">
+<div class="site-footer__col">
+              <p class="site-footer__col-title">Locations</p>
+              <ul class="site-footer__list" role="list">
+                <li><a class="site-footer__link" href="/schuyler-ne-web-design-company">Schuyler</a></li>
+                <li><a class="site-footer__link" href="/lincoln-web-design">Lincoln</a></li>
+                <li><a class="site-footer__link" href="/fremont-website-design-company">Fremont</a></li>
+              </ul>
+            </div>
+
+            <div class="site-footer__col">
+              <p class="site-footer__col-title">Services</p>
+              <ul class="site-footer__list" role="list">
+                <li><a class="site-footer__link" href="/services">All services</a></li>
+                <li><a class="site-footer__link" href="/website-design">Website design</a></li>
+                <li><a class="site-footer__link" href="/search-engine-optimization">Local SEO</a></li>
+                <li><a class="site-footer__link" href="/drone-services">Drone services</a></li>
+              </ul>
+            </div>
+
+            <div class="site-footer__col">
+              <p class="site-footer__col-title">Company</p>
+              <ul class="site-footer__list" role="list">
+                <li><a class="site-footer__link" href="/work">Our Work</a></li>
+                <li><a class="site-footer__link" href="/about">About</a></li>
+                <li><a class="site-footer__link" href="/testimonials">Testimonials</a></li>
+                <li><a class="site-footer__link" href="/contact">Contact</a></li>
+                <li><a class="site-footer__link" href="/blog">Blog</a></li>
+                <li><a class="site-footer__link" href="/paginas-web-en-espanol-omaha">Diseño web en español</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="site-footer__bottom">
+          <div class="container site-footer__bottom-inner">
+            <div class="site-footer__trust" aria-label="Trust statement">
+              <span class="site-footer__stars" aria-hidden="true">★★★★★</span>
+              <span class="site-footer__trust-text">
+                Trusted by local businesses • Family and locally owned
+              </span>
+            </div>
+            <div class="site-footer__legal">
+              <span>© <span data-year></span> 452 Digital Co. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+
+      </footer>
     </main>
 
-    <footer class="site-footer">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <a href="/" class="footer-logo" aria-label="Sweet Earth Delights home">
-            <img src="images/logo-footer.svg" alt="Sweet Earth Delights" width="140" height="110">
-          </a>
-          <p class="footer-tagline">Artisan baked goods from our home kitchen.</p>
-        </div>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.452digitalco.com/#website",
+      "url": "https://www.452digitalco.com/",
+      "name": "452 Digital Co.",
+      "publisher": {
+        "@id": "https://www.452digitalco.com/#organization"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.452digitalco.com/#webpage",
+      "url": "https://www.452digitalco.com/",
+      "name": "452 Digital Co. | Web Design & SEO Company in Papillion + Omaha, NE",
+      "description": "Papillion & Omaha web design company. Lead-focused websites and local SEO — including work for Bellino Fireworks, Lincoln Tent, and Lux American Grill. You own the files.",
+      "isPartOf": { "@id": "https://www.452digitalco.com/#website" },
+      "about": { "@id": "https://www.452digitalco.com/#business" },
+      "dateModified": "2026-07-22",
+      "inLanguage": "en-US",
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.452digitalco.com/images/452-digital-co-omaha.jpg"
+      },
+      "mentions": [
+        { "@id": "https://www.452digitalco.com/#client-bellino" },
+        { "@id": "https://www.452digitalco.com/#client-lincoln-tent" },
+        { "@id": "https://www.452digitalco.com/#client-lux" }
+      ],
+      "mainEntity": { "@id": "https://www.452digitalco.com/#faq" }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.452digitalco.com/#organization",
+      "name": "452 Digital Co.",
+      "url": "https://www.452digitalco.com/",
+      "logo": "https://www.452digitalco.com/images/graphic-design-in-omaha-logo.png",
+      "telephone": "+1-402-804-3315",
+      "email": "hello@452digitalco.com",
+      "sameAs": [
+        "https://www.facebook.com/452.digital",
+        "https://www.instagram.com/452.digitalco/"
+      ]
+    },
+    {
+      "@type": [
+        "LocalBusiness",
+        "ProfessionalService"
+      ],
+      "@id": "https://www.452digitalco.com/#business",
+      "name": "452 Digital Co.",
+      "url": "https://www.452digitalco.com/",
+      "telephone": "+1-402-804-3315",
+      "email": "hello@452digitalco.com",
+      "image": "https://www.452digitalco.com/images/graphic-design-in-omaha-logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Papillion",
+        "addressRegion": "NE",
+        "addressCountry": "US"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ],
+      "brand": {
+        "@id": "https://www.452digitalco.com/#organization"
+      },
+      "parentOrganization": {
+        "@id": "https://www.452digitalco.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://www.452digitalco.com/#website"
+      },
+      "sameAs": [
+        "https://www.facebook.com/452.digital",
+        "https://www.instagram.com/452.digitalco/"
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-website-design",
+      "name": "Website Design",
+      "serviceType": "Website Design",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": "Nebraska"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-web-development",
+      "name": "Web Development",
+      "serviceType": "Web Development",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": "Nebraska"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-local-seo",
+      "name": "Local SEO",
+      "serviceType": "Local SEO",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": "Nebraska"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-website-redesign",
+      "name": "Website Redesign",
+      "serviceType": "Website Redesign",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": "Nebraska"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-ecommerce",
+      "name": "E-commerce Stores",
+      "serviceType": "E-commerce Stores",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-graphic-design",
+      "name": "Graphic Design",
+      "serviceType": "Graphic Design",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-drone-services",
+      "name": "Drone Services",
+      "serviceType": "Drone Services",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-google-ads",
+      "name": "Google Ads",
+      "serviceType": "Google Ads",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-analytics",
+      "name": "Website Analytics",
+      "serviceType": "Website Analytics",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-google-business-profile",
+      "name": "Google Business Profile & Apple Maps",
+      "serviceType": "Google Business Profile & Apple Maps",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-branding-identity",
+      "name": "Branding & Identity",
+      "serviceType": "Branding & Identity",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-event-websites",
+      "name": "Event Websites",
+      "serviceType": "Event Websites",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-restaurant-web-design",
+      "name": "Restaurant Web Design",
+      "serviceType": "Restaurant Web Design",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "@id": "https://www.452digitalco.com/#service-spanish-web",
+      "name": "Paginas Web En Español",
+      "serviceType": "Paginas Web En Español",
+      "provider": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Omaha, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Papillion, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bellevue, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Gretna, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Elkhorn, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Lincoln, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "La Vista, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Ralston, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Bennington, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Fremont, Nebraska"
+        },
+        {
+          "@type": "City",
+          "name": "Schuyler, Nebraska"
+        },
+        {
+          "@type": "State",
+          "name": "Nebraska"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.452digitalco.com/#home-webpage",
+      "url": "https://www.452digitalco.com/",
+      "name": "452 Digital Co. | Web Design & SEO in Papillion + Omaha",
+      "description": "452 Digital Co. offers local web design and SEO in Papillion and Omaha, Nebraska, with clear measurement and sites your team can own.",
+      "isPartOf": {
+        "@id": "https://www.452digitalco.com/#website"
+      },
+      "about": {
+        "@id": "https://www.452digitalco.com/#business"
+      },
+      "inLanguage": "en",
+      "significantLink": [
+        "https://www.452digitalco.com/services",
+        "https://www.452digitalco.com/website-design",
+        "https://www.452digitalco.com/search-engine-optimization",
+        "https://www.452digitalco.com/work",
+        "https://www.452digitalco.com/about",
+        "https://www.452digitalco.com/contact",
+        "https://www.452digitalco.com/testimonials",
+        "https://www.452digitalco.com/papillion-web-design-company"
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.452digitalco.com/#sitenav",
+      "name": "Primary site pages",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "SiteNavigationElement",
+          "position": 1,
+          "name": "Services",
+          "url": "https://www.452digitalco.com/services"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 2,
+          "name": "Website Design",
+          "url": "https://www.452digitalco.com/website-design"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 3,
+          "name": "Search Engine Optimization",
+          "url": "https://www.452digitalco.com/search-engine-optimization"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 4,
+          "name": "Our Work",
+          "url": "https://www.452digitalco.com/work"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 5,
+          "name": "About",
+          "url": "https://www.452digitalco.com/about"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 6,
+          "name": "Testimonials",
+          "url": "https://www.452digitalco.com/testimonials"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 7,
+          "name": "Contact",
+          "url": "https://www.452digitalco.com/contact"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "position": 8,
+          "name": "Papillion Web Design",
+          "url": "https://www.452digitalco.com/papillion-web-design-company"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.452digitalco.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.452digitalco.com/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.452digitalco.com/#client-bellino",
+      "name": "Bellino Fireworks",
+      "url": "https://bellinofireworks.com"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.452digitalco.com/#client-lincoln-tent",
+      "name": "Lincoln Tent",
+      "url": "https://lincolntent.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3900 Cornhusker Hwy #1",
+        "addressLocality": "Lincoln",
+        "addressRegion": "NE",
+        "postalCode": "68504",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.452digitalco.com/#client-lux",
+      "name": "Lux American Grill",
+      "url": "https://luxamericangrill.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Omaha",
+        "addressRegion": "NE",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.452digitalco.com/#work-bellino",
+      "name": "Bellino Fireworks website",
+      "url": "https://bellinofireworks.com",
+      "creator": { "@id": "https://www.452digitalco.com/#organization" },
+      "about": { "@id": "https://www.452digitalco.com/#client-bellino" }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.452digitalco.com/#work-lincoln-tent",
+      "name": "Lincoln Tent website redesign",
+      "url": "https://lincolntent.com",
+      "creator": { "@id": "https://www.452digitalco.com/#organization" },
+      "about": { "@id": "https://www.452digitalco.com/#client-lincoln-tent" }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.452digitalco.com/#work-lux",
+      "name": "Lux American Grill website",
+      "url": "https://luxamericangrill.com",
+      "creator": { "@id": "https://www.452digitalco.com/#organization" },
+      "about": { "@id": "https://www.452digitalco.com/#client-lux" }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.452digitalco.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you build websites for Omaha and Papillion businesses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We’re a family-owned Papillion studio serving Omaha, Sarpy County, Lincoln, and nearby Nebraska communities with custom sites you own."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which client websites can I see live?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A few examples are Bellino Fireworks, Lincoln Tent, and Lux American Grill. You can browse more on our work page."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you charge monthly website rental fees?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Your website is a one-time build and you own the files. Ongoing SEO, content, or design support is optional when it helps your goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer local SEO with the website?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We can structure pages for local search and set up tracking so you know what’s working."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 
-        <div class="footer-grid">
-          <div class="footer-col">
-            <h4 class="footer-heading">Contact</h4>
-            <address>
-              Bellevue, NE<br>
-              Serving Omaha Metro Area<br>
-              <a href="mailto:sales@sweetearthdelights.com">sales@sweetearthdelights.com</a>
-            </address>
-          </div>
-
-          <div class="footer-col">
-            <h4 class="footer-heading">Explore</h4>
-            <ul class="footer-links">
-              <li><a href="about.html">Our Story</a></li>
-              <li><a href="find-us.html">Find Us</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="shop.html">Shop</a></li>
-              <li><a href="schedule.html">2026 Schedule</a></li>
-              <li><a href="#order">Order Now</a></li>
-              <li><a href="wholesale.html">Wholesale</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-col">
-            <h4 class="footer-heading">Follow</h4>
-            <ul class="footer-links">
-              <li><a href="https://www.instagram.com/sweet.earth.delights/" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Instagram">Instagram</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61565852017735" target="_blank" rel="noopener noreferrer" aria-label="Sweet Earth Delights on Facebook">Facebook</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-newsletter">
-        <div class="footer-newsletter__inner">
-          <form class="footer-newsletter__form" id="footer-newsletter-form" action="#" method="post" novalidate>
-            <label class="footer-newsletter__label" for="footer-newsletter-email">
-              Delicious deals, direct to your inbox:
-            </label>
-            <div class="footer-newsletter__fields">
-              <input
-                type="email"
-                id="footer-newsletter-email"
-                name="EMAIL"
-                class="footer-newsletter__input"
-                placeholder="Email address"
-                required
-                autocomplete="email"
-              >
-              <button type="submit" class="footer-newsletter__submit">Sign Up</button>
-            </div>
-          </form>
-          <p class="footer-newsletter__status" id="footer-newsletter-status" role="status" aria-live="polite" hidden></p>
-          <p class="footer-newsletter__legal">
-            This form is protected by reCAPTCHA and the
-            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>
-            and
-            <a href="https://policies.google.com/terms" target="_blank" rel="noopener noreferrer">Terms of Service</a>
-            apply.
-          </p>
-        </div>
-      </div>
-
-      <div class="footer-bar">
-        <p class="copyright">&copy; Sweet Earth Delights 2026. All Rights Reserved</p>
-      </div>
-    </footer>
-  </div>
-
-  <script src="js/main.js" defer></script>
-</body>
+    <script src="js/translate.js?v=20260722r" defer></script>
+    <script src="js/nav.js?v=20260722v" defer></script>
+    <script src="js/form-gate.js?v=20260722j" defer></script>
+    <script src="js/forms.js?v=20260722i" defer></script>
+    <script src="js/main.js?v=20260722t" defer></script>
+  </body>
 </html>
+

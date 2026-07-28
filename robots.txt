@@ -1,0 +1,17 @@
+# https://www.452digitalco.com — production robots.txt
+
+User-agent: *
+Allow: /
+
+# Post-conversion utility (not for organic search)
+Disallow: /thank-you
+
+# Server-side handlers and private data (not public pages)
+Disallow: /contact.php
+Disallow: /newsletter-handler.php
+Disallow: /newsletter-signups.csv
+
+# Build / maintenance scripts (not web content)
+Disallow: /scripts/
+
+Sitemap: https://www.452digitalco.com/sitemap.xml

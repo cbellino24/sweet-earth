@@ -1,0 +1,37 @@
+TRAILING SLASH FIX — READ THIS
+==============================
+
+PROBLEM:
+  /about/   (with slash)  → 500 error OR unstyled page
+  /about    (no slash)    → works
+
+CAUSE:
+  Old .htaccess skipped the redirect when a FOLDER named "about/" existed
+  on the server. Apache tried to open that folder → 500.
+
+FIX (do all steps):
+
+1) cPanel → File Manager → public_html
+
+2) DELETE any folders that match page names (if you see them):
+     about/   services/   contact/   work/   blog/
+   Keep only the .html FILES (about.html, services.html, etc.)
+
+3) Upload and extract deploy-452digitalco.zip (overwrite all)
+
+4) Test in Safari Private Window:
+     https://www.452digitalco.com/about/
+     Should REDIRECT to https://www.452digitalco.com/about (no slash)
+     and look fully styled.
+
+5) Cloudflare: SSL/TLS → Always Use HTTPS → ON
+
+SPEED — DO NOT UPLOAD THESE (they slow the site / waste space):
+  - images.zip          (327 MB backup archive — not needed on server)
+  - images-originals/   (full-size backups — keep on your computer only)
+  - videos/*.original.mp4  (original video backups — keep locally only)
+
+After uploading optimized files, enable in Cloudflare (free):
+  - Speed → Optimization → Auto Minify: CSS + JS
+  - Caching → Caching Level: Standard
+  - If available: Polish (Lossless) + WebP under Speed → Optimization

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288" fill="none" aria-hidden="true">
+  <!-- order form -->
+  <rect x="88" y="72" width="184" height="188" rx="8" fill="#ffffff" stroke="#3a3a3a" stroke-width="2.5"/>
+  <rect x="148" y="58" width="64" height="22" rx="4" fill="#d6b294" stroke="#3a3a3a" stroke-width="2.5"/>
+  <circle cx="180" cy="69" r="5" fill="#3a3a3a"/>
+
+  <text x="180" y="108" text-anchor="middle" fill="#03423d" font-family="Libre Caslon Text, Georgia, serif" font-size="18" font-weight="600" letter-spacing="0.04em">Order Form</text>
+  <path d="M112 124h136" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 144h120" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 164h128" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 184h104" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 204h116" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M112 224h88" stroke="#d6b294" stroke-width="2.5" stroke-linecap="round"/>
+
+  <rect x="112" y="132" width="12" height="12" rx="2" fill="#f7efe6" stroke="#3a3a3a" stroke-width="1.8"/>
+  <path d="M115 138l3 3 6-7" stroke="#03423d" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="112" y="192" width="12" height="12" rx="2" fill="#f7efe6" stroke="#3a3a3a" stroke-width="1.8"/>
+
+  <!-- clock badge -->
+  <circle cx="92" cy="72" r="30" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5"/>
+  <circle cx="92" cy="72" r="23" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M92 58v16l10 8" stroke="#03423d" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="92" cy="72" r="3" fill="#03423d"/>
+
+  <!-- check badge -->
+  <circle cx="268" cy="218" r="26" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5"/>
+  <path d="M254 218l10 10 22-24" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288" fill="none" aria-hidden="true">
+  <!-- left store -->
+  <rect x="74" y="168" width="84" height="64" rx="4" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2.5"/>
+  <path d="M70 168h92l-7-18H77l-7 18z" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="88" y="184" width="22" height="18" rx="2" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="122" y="188" width="20" height="44" rx="2" fill="#dcc6a2" stroke="#3a3a3a" stroke-width="2"/>
+
+  <!-- right store -->
+  <rect x="202" y="168" width="84" height="64" rx="4" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2.5"/>
+  <path d="M198 168h92l-7-18h-78l-7 18z" fill="#d6b294" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="216" y="184" width="22" height="18" rx="2" fill="#ffffff" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="250" y="188" width="20" height="44" rx="2" fill="#dcc6a2" stroke="#3a3a3a" stroke-width="2"/>
+
+  <!-- location pin -->
+  <path d="M180 58c-16 0-28 12-28 28 0 20 28 44 28 44s28-24 28-44c0-16-12-28-28-28z" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5" stroke-linejoin="round"/>
+  <circle cx="180" cy="84" r="9" fill="#f7efe6" stroke="#3a3a3a" stroke-width="2"/>
+</svg>

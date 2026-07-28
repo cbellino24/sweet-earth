@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 288" fill="none" aria-hidden="true">
+  <defs>
+    <pattern id="awning-stripe" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect width="10" height="20" fill="#f3d98b"/>
+      <rect x="10" width="10" height="20" fill="#fff9ee"/>
+    </pattern>
+  </defs>
+
+  <!-- stand legs -->
+  <path d="M88 248v-34M272 248v-34" stroke="#3a3a3a" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- stand body -->
+  <rect x="76" y="212" width="208" height="36" rx="2" fill="#dcc6a2" stroke="#3a3a3a" stroke-width="2.5"/>
+  <rect x="56" y="198" width="248" height="16" rx="3" fill="#c9a87a" stroke="#3a3a3a" stroke-width="2.5"/>
+
+  <!-- sign -->
+  <rect x="118" y="162" width="124" height="36" rx="4" fill="#03423d" stroke="#3a3a3a" stroke-width="2.5"/>
+  <text x="180" y="178" text-anchor="middle" fill="#f7efe6" font-family="Libre Caslon Text, Georgia, serif" font-size="10" font-weight="600" letter-spacing="0.08em">FARMERS</text>
+  <text x="180" y="190" text-anchor="middle" fill="#f7efe6" font-family="Libre Caslon Text, Georgia, serif" font-size="10" font-weight="600" letter-spacing="0.08em">MARKET</text>
+
+  <!-- awning posts -->
+  <rect x="98" y="110" width="14" height="88" fill="#a67c52" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="248" y="110" width="14" height="88" fill="#a67c52" stroke="#3a3a3a" stroke-width="2"/>
+
+  <!-- striped awning: flat top, five scalloped tabs -->
+  <path d="M78 82H282V110Q262 128 242 110Q222 92 202 110Q182 128 162 110Q142 92 122 110Q102 128 78 110V82Z" fill="url(#awning-stripe)" stroke="#3a3a3a" stroke-width="2" stroke-linejoin="round"/>
+</svg>

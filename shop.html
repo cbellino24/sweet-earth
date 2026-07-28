@@ -57,25 +57,31 @@
             <p class="shop-page__eyebrow">Shop</p>
             <h1 class="shop-page__title" id="shop-title">From Our Kitchen</h1>
             <p class="shop-page__lead">
-              Small-batch bakes made to order. Submit your request through our order form and we&apos;ll
-              confirm availability, pickup time, and payment by email.
+              Small-batch bakes made to order. Submit your request and we&apos;ll confirm
+              availability, pickup time, and payment by email.
             </p>
           </header>
 
-          <div class="shop-page__toolbar">
-            <nav class="shop-categories" aria-label="Filter by category">
-              <ul class="shop-categories__list">
-                <li><button type="button" class="shop-categories__btn is-active" data-shop-filter="all">All</button></li>
-                <li><button type="button" class="shop-categories__btn" data-shop-filter="bread">Bread</button></li>
-                <li><button type="button" class="shop-categories__btn" data-shop-filter="bagels">Bagels</button></li>
-                <li><button type="button" class="shop-categories__btn" data-shop-filter="treats">Treats</button></li>
-                <li><button type="button" class="shop-categories__btn" data-shop-filter="other">Other</button></li>
-              </ul>
-            </nav>
-            <p class="shop-page__count" id="shop-count" aria-live="polite">15 products</p>
-          </div>
+          <div class="shop-page__layout">
+            <aside class="shop-sidebar" aria-label="Shop filters">
+              <h2 class="shop-sidebar__heading">Categories</h2>
+              <nav class="shop-categories" aria-label="Filter by category">
+                <ul class="shop-categories__list">
+                  <li><button type="button" class="shop-categories__btn is-active" data-shop-filter="all">All</button></li>
+                  <li><button type="button" class="shop-categories__btn" data-shop-filter="bread">Bread</button></li>
+                  <li><button type="button" class="shop-categories__btn" data-shop-filter="bagels">Bagels</button></li>
+                  <li><button type="button" class="shop-categories__btn" data-shop-filter="treats">Treats</button></li>
+                  <li><button type="button" class="shop-categories__btn" data-shop-filter="other">Other</button></li>
+                </ul>
+              </nav>
+            </aside>
 
-          <div class="shop-grid" id="shop-grid">
+            <div class="shop-page__main">
+              <div class="shop-page__main-bar">
+                <p class="shop-page__count" id="shop-count" aria-live="polite">15 products</p>
+              </div>
+
+              <div class="shop-grid" id="shop-grid">
             <article class="shop-product" data-category="bread">
               <a class="shop-product__link" href="product.html?p=original-loaves">
                 <div class="shop-product__media">
@@ -330,6 +336,8 @@
                 </div>
               </a>
             </article>
+              </div>
+            </div>
           </div>
 
           <footer class="shop-page__footer">
